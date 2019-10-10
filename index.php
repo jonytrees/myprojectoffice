@@ -1,7 +1,7 @@
 <?php
 //Две строчки ниже для защиты форм от спам-ботов
 session_start();
-$_SESSION['sf_key'] = md5(substr( session_id(), mt_rand(0,10), mt_rand(3,10) ) . time() ); 
+$_SESSION['sf_key'] = md5(substr( session_id(), mt_rand(0,10), mt_rand(3,10) ) . time() );
 
 header('Content-Type: text/html; charset=utf-8');
 header('X-UA-Compatible: IE=edge');
@@ -160,61 +160,432 @@ $image = SI_CurrentPageImage();
         </div>
     </section>
 
-    <!--===================================================== section x -->
-    <section class="section-x" id="x">
+    <!--===================================================== section practice -->
+    <section class="section-practice" id="practice">
         <div class="container">
+            <div class="block-title">
+                <h1>
+                    Практики, а не консультанты
+                </h1>
 
-            <h2>
-                <span class="big"></span>
-            </h2>
-
-            <a href="https://www.youtube.com/watch?v=XOIfBhSmoOc&amp;autoplay=1" class="review-item"
-               data-fancybox="review">
-                <img src="http://img.youtube.com/vi/XOIfBhSmoOc/0.jpg" alt=" ">
-                <!--            --><?php //include('svg/icon-play.svg'); ?>
-            </a>
-
-            <div class="tabs-block price-block align-center" data-tab-block="t-price">
-
-                <ul class="nav nav-tabs">
-                    <li class="tab-link active" data-tab="t-price-1" data-tab-block="t-price">
-                    </li>
-
-                    <li class="tab-link" data-tab="t-price-2" data-tab-block="t-price">
-                    </li>
-                </ul>
-
-                <div class="tabs-content-container">
-
-                    <!-- ================================================ price tab 1-->
-                    <div class="tab-content active" data-tab="t-price-1" data-tab-block="t-price">
-
+                <div class="sub_h1">
+                    <div class="icon"><span>!</span></div>
+                    <div class="text">
+                        <span>Наша цель:</span> выполнение финансовых показателей проекта и сроков в утверждённых рамках и качестве.
                     </div>
-
-                    <!-- ================================================ price tab 2-->
-                    <div class="tab-content" data-tab="t-price-2" data-tab-block="t-price">
-
-                    </div>
-
                 </div>
             </div>
 
+            <div class="block-text">
+                Ведение проектов на международном рынке характеризуется наличием малоизвестных и плохо предсказуемых рисков, несвойственных для внутрироссийских или постсоветских территорий. Главная ценность предоставляемой услуги, заключается в том, что наша команда с многолетним опытом может более эффективно идентифицировать потенциальные риски, а также выполнить проект оптимальным способом с учетом имеющейся практики.
+            </div>
+            <div class="row">
+                <div class="col-1-3">
+                    <div class="practice-block">
+                        <div class="practice-icon i-1">
+                            <?php include('svg/show.svg'); ?>
+                        </div>
+                        <div class="practice-line"></div>
+                        <div class="practice-title">
+                            Обеспечиваем <br>прозрачность процесса
+                        </div>
+                        <div class="practice-text">
+                            Своевременно предоставляем отчеты о ходе выполнения проекта в установленном формат.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1-3">
+                    <div class="practice-block center">
+                        <div class="practice-icon i-2">
+                            <?php include('svg/frame.svg'); ?>
+                        </div>
+                        <div class="practice-line"></div>
+                        <div class="practice-title">
+                            Контролируем сроки,<br> бюджет и качество
+                        </div>
+                        <div class="practice-text">
+                            Достигаем цели проекта в заданные сроки, в рамках утвержденного бюджета и требуемого качества.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1-3">
+                    <div class="practice-block right">
+                        <div class="practice-icon i-3">
+                            <?php include('svg/vector.svg'); ?>
+                        </div>
+                        <div class="practice-line"></div>
+                        <div class="practice-title">
+                            Идентифицируем и <br> управляем рисками
+                        </div>
+                        <div class="practice-text">
+                            Анализируем проект на наличие потенциальных рисков, планируем мероприятия по уменьшению их влияния.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1-3">
+                    <div class="practice-block">
+                        <div class="practice-icon i-4">
+                            <?php include('svg/profile.svg'); ?>
+                        </div>
+                        <div class="practice-line"></div>
+                        <div class="practice-title">
+                            Управляем <br> коммуникациями
+                        </div>
+                        <div class="practice-text">
+                            Формализуем процесс общения с заказчиком, готовим и согласуем планы коммуникаций и эскалации.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1-3">
+                    <div class="practice-block">
+                        <div class="practice-icon i-5"></div>
+                        <div class="practice-line"></div>
+                        <div class="practice-title">
+                            Подбираем локальных<br> партнеров
+                        </div>
+                        <div class="practice-text">
+                            Помогаем подобрать локальных подрядчиков и поставщиков, имеем проверенных партнеров в нескольких регионах.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1-3">
+                    <div class="practice-block">
+                        <div class="practice-icon i-6">
+                            <?php include('svg/page2.svg'); ?>
+                        </div>
+                        <div class="practice-line"></div>
+                        <div class="practice-title">
+                            Гарантируем<br> конфиденциальность
+                        </div>
+                        <div class="practice-text">
+                            Подписываем NDA: данные о наших клиентах и их проектах никогда не передаются третьим сторонам.
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
-    <!--===================================================== section form-x -->
-    <section class="section-form form-x" id="form-x">
+    <!--===================================================== section x -->
+    <section class="section-task" id="task">
+        <div class="container">
+            <h2>
+                Какие задачи мы решаем
+            </h2>
+            <div class="sub_title">
+                Методология ведения проектов - PMI (Project Management Institute)/PMBOK с глубокой адаптацией под
+                нужды вашей организации. <span>Комбинирование классических подходов с практиками SCRUM.</span>
+            </div>
+            <div class="row">
+                <div class="col-1-2">
+                    <img src="images/task-img-1.jpg" alt=" " class="task-img">
+                </div>
+                <div class="col-1-2">
+                    <div class="task-text">
+                        <div class="task-title">
+                            Участие в международных тендерах
+                        </div>
+                        <ul class="task-list">
+                            <li>
+                                предварительный расчёт стоимости решения с учётом спецификации поставки, необходимых ресурсов для реализации проекта, привлечения локальных подрядчиков, существующих рисков;
+                            </li>
+                            <li>
+                                подбор поставщиков, получение квотаций;
+                            </li>
+                            <li>
+                                подготовка комплекта документов для подачи.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1-2">
+                    <div class="task-text i-1">
+                        <div class="task-title">
+                            Реализация и сопровождение <Br> проектов
+                        </div>
+                        <ul class="task-list">
+                            <li>
+                                проведение Critical Design Review после подписания договора с заказчиком;
+                            </li>
+                            <li>
+                                подготовка детального технического решения;
+                            </li>
+                            <li>
+                                закупка оборудования, логистика;
+                            </li>
+                            <li>
+                                проведение Factory Acceptance Test;
+                            </li>
+                            <li>
+                                инсталляционные работы;
+                            </li>
+                            <li>
+                                проведение Site Acceptance Test;
+                            </li>
+                            <li>
+                                проектная отчетность.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-1-2">
+                    <img src="images/task-img-2.jpg" alt=" " class="task-img a-1">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1-2">
+                    <img src="images/task-img-3.jpg" alt=" " class="task-img a-2">
+                </div>
+                <div class="col-1-2">
+                    <div class="task-text i-2">
+                        <div class="task-title">
+                            Вывод компании на международный<br> рынок
+                        </div>
+                        <ul class="task-list">
+                            <li>
+                                консультации по подготовке необходимого минимума (отраслевые сертификаты, документация, вебсайт);
+                            </li>
+                            <li>
+                                выход на тестовые лаборатории;
+
+                            </li>
+                            <li>
+                                поиск первых партнёров.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1-2">
+                    <div class="task-text i-1 i-3">
+                        <div class="task-title">
+                            Проведение выставок
+                        </div>
+                        <ul class="task-list">
+                            <li>
+                                консультации по подготовке необходимого минимума (отраслевые сертификаты, документация, вебсайт);
+                            </li>
+                            <li>
+                                выход на тестовые лаборатории;
+                            </li>
+                            <li>
+                                поиск первых партнёров.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-1-2">
+                    <img src="images/task-img-4.jpg" alt=" " class="task-img a-1 a-3">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1-2">
+                    <img src="images/task-img-5.jpg" alt=" " class="task-img a-4">
+                </div>
+                <div class="col-1-2">
+                    <div class="task-text i-4">
+                        <div class="task-title">
+                            Использование современных<br> методов управления
+                        </div>
+                        <ul class="task-list">
+                            <li>
+                                консультации по подготовке необходимого минимума (отраслевые сертификаты, документация, вебсайт);
+                            </li>
+                            <li>
+                                выход на тестовые лаборатории;
+                            </li>
+                            <li>
+                                поиск первых партнёров.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--===================================================== section how -->
+    <section class="section-how" id="how">
+        <div class="container">
+            <h2>
+                Как отслеживаем<br> показатели
+            </h2>
+            <div class="how-wrapper">
+                <div class="how-number">
+                    <span>01</span>
+                </div>
+                <div class="how-text">
+                    Фиксация плановых показателей бюджета (общий расходный бюджет по статьям, план признания выручки, план движения денежных средств) с разбиением на короткие интервалы (1-3 мес).
+                </div>
+            </div>
+            <div class="how-wrapper">
+                <div class="how-number">
+                    <span>02</span>
+                </div>
+                <div class="how-text">
+                    Отчётность относительно достижения результатов по интервалу и целому бюджету. По необходимости- внесение согласованных корректировок в следующие интервалы.
+                </div>
+            </div>
+            <div class="how-wrapper i-3">
+                <div class="how-number">
+                    <span>03</span>
+                </div>
+                <div class="how-text">
+                    Фиксация мастер-плана и контрольных точек. Контроль прохождения точек, корректировка плана по необходимости.
+                </div>
+            </div>
+            <div class="how-wrapper i-4">
+                <div class="how-number">
+                    <span>04</span>
+                </div>
+                <div class="how-text">
+                    Регулярная ревизия плана управления рисками, комментарии и фокус на критических рисках в каждый отчетный период.
+                </div>
+            </div>
+            <div class="how-wrapper i-1">
+                <div class="how-number">
+                    <span>05</span>
+                </div>
+                <div class="how-text">
+                    Контроль качества реализуемого решения в рамках спецификации, анализ обратной связи от заказчика.
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--===================================================== section process -->
+    <section class="section-process" id="process">
+        <div class="container">
+            <h2>
+                Процесс работы <br> над проектами
+            </h2>
+
+            <img src="images/process-img.png" alt=" " class="img-process">
+
+            <div class="row">
+                <div class="col-1-2">
+                    <div class="process-icon">
+                        <?php include('svg/graphic.svg'); ?>
+                    </div>
+                </div>
+                <div class="col-1-2">
+                    <div class="process-block">
+                        <div class="step">
+                            Шаг 1
+                        </div>
+                        <div class="text">
+                            Анализ тендерных требований.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1-2">
+                    <div class="process-block left">
+                        <div class="step">
+                            Шаг 2
+                        </div>
+                        <div class="text">
+                            Разработка технического решения, подбор оборудования и поставщиков, подготовка технического предложения.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1-2">
+                    <div class="process-icon right vector">
+                        <?php include('svg/vector.svg'); ?>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1-2">
+                    <div class="process-icon dollar">
+                        <?php include('svg/dollar.svg'); ?>
+                    </div>
+                </div>
+                <div class="col-1-2">
+                    <div class="process-block step-3">
+                        <div class="step">
+                            Шаг 3
+                        </div>
+                        <div class="text">
+                            Подготовка Costing Budget, получение квотаций от поставщиков оборудования и услуг.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1-2">
+                    <div class="process-block step-4">
+                        <div class="step">
+                            Шаг 4
+                        </div>
+                        <div class="text">
+                            Подготовка коммерческого предложения и сопроводительных документов.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1-2">
+                    <div class="process-icon page">
+                        <?php include('svg/page.svg'); ?>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1-2">
+                    <div class="process-icon display">
+                        <?php include('svg/display.svg'); ?>
+                    </div>
+                </div>
+                <div class="col-1-2">
+                    <div class="process-block step-5">
+                        <div class="step">
+                            Шаг 5
+                        </div>
+                        <div class="text">
+                            Поставка решения, приемо-сдаточные испытания, подготовка исполнительной документации.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1-2">
+                    <div class="process-block step-6">
+                        <div class="step">
+                            Шаг 6
+                        </div>
+                        <div class="text">
+                            Передача решения на поддержку, закрытие коммерческого проекта, анализ результатов.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1-2">
+                    <div class="process-icon show">
+                        <?php include('svg/show.svg'); ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--===================================================== section form -->
+    <section class="section-form" id="form">
         <div class="container align-center">
 
             <h2>
-
+                У вас есть для нас проект?
             </h2>
 
-            <p>
+            <div class="sub_title">
+                Мы проконсультируем и ответим на любые вопросы. Ответим за 15 минут
+            </div>
 
-            </p>
-
-            <form method="post" class="send-form" autocomplete="off">
+            <form method="post" class="send-form form-first" autocomplete="off">
                 <div class="row">
                     <div class="col-1-3">
                         <input type="text" name="client_name" class="client-name" placeholder="Ваше имя">
@@ -235,19 +606,15 @@ $image = SI_CurrentPageImage();
 				<?php //Поле выше для защиты формы от спам-ботов ?>
 
                 <div class="btn-holder">
-                    <button type="submit" class="btn">Позвоните мне</button>
+                    <button type="submit" class="btn btn-blue">Заказать консультацию <span><?php include('svg/arrow.svg'); ?></span></button>
                     <!--<div class="g-recaptcha" id="g-recaptcha"></div>-->
                 </div>
 
                 <!-- Agreement -->
                 <div class="form-agree align-left">
                     <label class="checkbox-label form-agree-check checked">
-                        <input type="checkbox" checked>
-                        Нажимая кнопку "ПОЗВОНИТЕ МНЕ", я&nbsp;даю своё согласие на&nbsp;обработку
-                        моих персональных данных в&nbsp;соответствии с&nbsp;Федеральным законом
-                        от&nbsp;27.07.2006&nbsp;года №152&#8209;ФЗ "О&nbsp;персональных данных",
-                        на&nbsp;условиях и&nbsp;для&nbsp;целей, определённых
-                        в&nbsp;Согласии на&nbsp;обработку персональных данных.
+<!--                        <input type="checkbox" checked>-->
+                        Нажимая кнопку «Заказать консультацию» я принимаю условия политики конфиденциальности.
                     </label>
                 </div>
             </form>
@@ -268,52 +635,27 @@ $image = SI_CurrentPageImage();
 
                 <!-- company info block -->
                 <div class="col-1-2">
-                    <div class="company-info-block">
-                        <address>
-                            <dl>
-                                <dt>Адрес:</dt>
-                                <dd></dd>
-                            </dl>
-                        </address>
-
-                        <dl>
-                            <dt>ИНН:</dt>
-                            <dd></dd>
-                        </dl>
-
-                        <dl>
-                            <dt>ОГРН:</dt>
-                            <dd></dd>
-                        </dl>
-
-                        <p>
-                            <a href="mailto:info@domen.ru">info@domen.ru</a>
-                        </p>
+                    <a href="#" class="logo si-jump">
+                        <img src="images/logo.png" alt=" ">
+                    </a>
+                    <div class="logo-text">
+                        ООО «My Project Office» <br>
+                        Адрес офиса: Москва, Адрес офиса<br>
+                        ОГРН: 1234567890123
                     </div>
                 </div>
 
                 <!-- Phone block -->
-                <div class="col-1-2 align-right">
-                    <div class="si-phone">
-                        <div class="si-phone-text">Звонок бесплатный</div>
-                        <a href="tel:+78009001111" class="phone-link dark">8 (800) 900-11-11</a>
-                        <a href="#" class="open-phone-modal" data-extra="2">Заказать консультацию</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="copyright-holder row">
                 <div class="col-1-2">
-                    <a href="#" class="dark open-text-modal" data-id="1">
-                        Согласие на обработку персональных данных
-                    </a>
-                </div>
+                    <div class="si-phone align-right">
+                        <a href="tel:+78001233232" class="phone-link"><span>8 800</span> 123 - 32 - 32</a>
+                        <a href="#" class="open-phone-modal consult" data-extra="1">Задать вопрос</a>
+                        <div class="hello">
+                            Оформлено и разработано <br> <a target="_blank" class="link" href="http://hello-brand.ru/">"Hello, brand!"</a>
+                        </div>
+                    </div>
 
-                <!-- copyright block -->
-                <div class="col-1-2 align-right">
-                    <a href="http://hello-brand.ru/" class="dark" target="_blank" rel="nofollow noopener">
-                        Разработано в "Hello, brand!"
-                    </a>
+
                 </div>
             </div>
         </div>
@@ -351,7 +693,7 @@ $image = SI_CurrentPageImage();
 
             </div>
         </div>
-	
+
         <!--============================================== phone modal -->
         <div class="si-modal phone-modal">
             <a href="#" class="si-close"></a>

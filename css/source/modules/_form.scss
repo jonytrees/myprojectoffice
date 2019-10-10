@@ -1,13 +1,24 @@
 //==================== section form
 .section-form {
-	background: no-repeat 50% 50% transparent;
+	background: #0F5EBA fixed url("../images/form.png") 50% 50% no-repeat;
+	padding-top: 190px;
+	padding-bottom: 198px;
 
-	.btn-holder {
-		margin-top: 0px;
+	h2{
+		color: #fff;
+		text-align: center;
+		font: normal 90px/96px 'Proba';
+		display: block;
+		margin-bottom: 20px;
 	}
 
-	.btn {
-		width: 300px;
+	.sub_title{
+		width: 1010px;
+		margin: 0 auto 50px;
+		color: #fff;
+		text-align: center;
+		font: normal 40px/50px 'Proba';
+		display: block;
 	}
 }
 
@@ -22,11 +33,48 @@
 }
 
 //==================== section form-x
-.form-x {
-	background-image: url('../images/formX-bg.jpg');
-	padding: 0px 0 0px;
+.form-first {
 
-	h2 {
-		margin-bottom: 0px;
+	input{
+		width: 100%;
+		height: 90px;
+		background-color: #fff !important;
+		padding-left: 47px;
+		color: #34404D !important;
+		font: normal 20px/90px 'Proba';
+	}
+
+	.btn-blue{
+		width: 384px;
+		height: 90px;
+		display: block;
+		margin: 30px auto 30px;
+		text-align: center;
+		color: #fff !important;
+		font: normal 20px/90px 'Proba';
+		background: #2E9AD7 !important;
+
+		&:hover{
+			background: #247aad !important;
+
+			span{
+				@include general-transition;
+				margin-left: 17px;
+			}
+		}
+
+		span{
+			display: inline-block;
+			margin-left: 27px;
+			margin-top: 3px;
+			vertical-align: top;
+		}
+	}
+
+	.form-agree-check{
+		text-align: center;
+		font: normal 20px/40px 'Proba';
+		font-style: italic;
+		color: #fff;
 	}
 }

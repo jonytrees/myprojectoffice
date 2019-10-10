@@ -4,7 +4,6 @@
 	//@include abs-center-fixed;
 	bottom: auto;
 	z-index: 50;
-	padding-top: 0px;
 	height: 80px;
 	background-color: #fff;
 
@@ -20,7 +19,7 @@
 .logo {
 	width: 134px;
 	display: inline-block;
-	margin-right: 162px;
+	margin-right: 170px;
 	vertical-align: top;
 	margin-top: 12px;
 
@@ -38,7 +37,7 @@
 	font: 14px/30px 'Proba' !important;
 	vertical-align: top;
 	margin-top: 24px;
-	margin-left: 10px;
+	margin-left: 4px;
 
 	.lang{
 		background: #0F5EBA !important;
@@ -55,6 +54,7 @@
 	vertical-align: top;
 	margin-top: 20px;
 	float: right !important;
+	margin-right: 18px;
 
 
 	.phone-link {
@@ -65,7 +65,7 @@
 		font: bold 20px/20px 'Proba';
 		color: #34404D;
 		vertical-align: top;
-		margin-top: 10px;
+		margin-top: 7px;
 
 		span{
 			color: #788AA1;
@@ -79,7 +79,7 @@
 			width: 30px;
 			height: 30px;
 			position: absolute;
-			top: -5px;
+			top: -3px;
 			left: 0;
 			background: url("../svg/phone.svg") no-repeat;
 			-webkit-background-size: cover;
@@ -94,7 +94,7 @@
 		text-align: center;
 		color: #fff !important;
 		font: 500 14px/40px 'Proba';
-		margin-left: 26px;
+		margin-left: 22px;
 		background: #0F5EBA;
 	}
 }

@@ -4,35 +4,40 @@
 	z-index: 1;
 }
 
+h1, h2{
+	margin-left: -5px;
+}
+
 //==================== section heading
 .section-heading {
 	background: url('../images/header-bg.jpg') no-repeat 50% 50% transparent;
 	-webkit-background-size: cover;
 	background-size: cover;
-	padding: 165px 0 410px;
+	padding: 238px 0 348px;
 	position: relative;
+	z-index: 10;
 
 	.small-title{
 		color: #788AA1;
 		font: 30px/35px 'Proba';
 		display: block;
-		margin-bottom: 33px;
+		margin-bottom: 28px;
 	}
 
 	h1 {
 		width: 560px;
 		display: block;
 		color: #34404D;
-		font: 110px/110px 'Proba';
-		margin-bottom: 35px;
+		font: 110px/99px 'Proba';
+		margin-bottom: 62px;
 	}
 
 	.sub-title{
 		width: 364px;
 		color: #34404D;
 		font: 25px/40px 'Proba';
-		margin-left: 107px;
-		margin-bottom: 130px;
+		margin-left: 106px;
+		margin-bottom: 107px;
 		position: relative;
 
 		&:after{
@@ -41,14 +46,14 @@
 			height: 2px;
 			background: #0F5EBA;
 			position: absolute;
-			top: 16px;
-			left: -107px;
+			top: 19px;
+			left: -106px;
 		}
 	}
 
 	.last-wrapper{
-		width: 500px;
-		margin-left: 50px;
+		width: 506px;
+		margin-left: 49px;
 		display: flex;
 		justify-content: space-between;
 
@@ -64,15 +69,15 @@
 				width: 20px;
 				height: 20px;
 				position: absolute;
-				top: -42px;
-				left: -54px;
+				top: -33px;
+				left: -50px;
 			}
 
 			.title{
 				color: #0F5EBA;
 				font: 300 144px/130px 'Proba';
 				display: block;
-				margin-bottom: 1px;
+				margin-bottom: 10px;
 			}
 
 			span{
@@ -80,7 +85,7 @@
 				color: #0F5EBA;
 				text-transform: uppercase;
 				display: block;
-				margin-bottom: 5px;
+				margin-bottom: 11px;
 			}
 
 			.text{
@@ -96,14 +101,14 @@
 		position: relative;
 
 		.more-block{
-			width: 282px;
-			height: 282px;
+			width: 279px;
+			height: 279px;
 			background: #0F5EBA;
 			position: absolute;
-			padding-top: 180px;
-			padding-left: 58px;
-			top: -133px;
-			right: 104px;
+			padding-top: 174px;
+			padding-left: 56px;
+			top: -132px;
+			right: 105px;
 
 			&:hover{
 				padding-top: 58px;
@@ -133,20 +138,21 @@
 
 		.department-wrapper{
 			position: absolute;
-			width: 100%;
-			height: 540px;
+			width: 99%;
+			height: 533px;
 			left: 0;
-			top: 145px;
+			top: 143px;
 			background: #E7EEF6;
-			padding-top: 139px;
-			padding-left: 208px;
+			padding-top: 132px;
+			padding-left: 201px;
+
 
 			.title{
 				width: 450px;
 				color: #34404D;
 				font: normal 50px/50px 'Proba';
 				display: block;
-				margin-bottom: 30px;
+				margin-bottom: 33px;
 			}
 
 			.text{
@@ -160,6 +166,517 @@
 	}
 }
 
+//==================== section-practice
+.section-practice{
+	padding-top: 450px;
+	padding-bottom: 192px;
+	background: url('../images/practic.jpg') 50% 100% no-repeat;
+
+	&:after{
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		height: 1440px;
+		background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+	}
+
+	.block-title{
+		width: 50%;
+		display: inline-block;
+		margin-bottom: 95px;
+
+		h1{
+			display: block;
+			color: #34404D;
+			font: normal 90px/100px 'Proba';
+			margin-bottom: 37px;
+		}
+
+		.sub_h1{
+			width: 600px;
+			display: block;
+
+			.icon{
+				display: inline-block;
+				width: 70px;
+				height: 70px;
+				border-radius: 100%;
+				position: relative;
+				border: 3px solid #0F5EBA;
+
+				span{
+					color: #34404D;
+					width: 5px;
+					height: 30px;
+					@include abs-center;
+					background: url("../svg/znak.svg") no-repeat;
+				}
+			}
+
+			.text{
+				display: inline-block;
+				width: 450px;
+				margin-left: 31px;
+				vertical-align: top;
+				font: normal 40px/50px 'Proba';
+				color: #34404D;
+				margin-top: 5px;
+
+				span{
+					color: #0F5EBA;
+				}
+			}
+		}
+	}
+
+	.block-text{
+		width: 490px;
+		display: inline-block;
+		float: right;
+		margin-right: 16px;
+		margin-top: 57px;
+		color: #788AA1;
+		font: normal 20px/40px 'Proba';
+	}
+
+	.practice-block{
+		width: 94%;
+		height: 487px;
+		background-color: #fff;
+		padding-top: 90px;
+		padding-left: 50px;
+		padding-right: 45px;
+		margin-bottom: 28px;
+
+		//&.center{
+		//	margin: 0 auto;
+		//}
+		//
+		//&.right{
+		//	float: right;
+		//}
+
+		.practice-icon{
+			display: block;
+			height: 60px;
+			margin-bottom: 37px;
+
+			&.i-1{
+				width: 72px;
+				svg{
+					width: 72px;
+					height: 60px;
+				}
+			}
+
+			&.i-2{
+				width: 60px;
+				svg{
+					width: 60px;
+					height: 60px;
+				}
+			}
+
+			&.i-3{
+				width: 60px;
+				svg{
+					width: 60px;
+					height: 60px;
+				}
+			}
+
+			&.i-4{
+				width: 55px;
+				svg{
+					width: 55px;
+					height: 60px;
+				}
+			}
+
+			&.i-5{
+				width: 94px;
+				background: url("../svg/arms.svg") no-repeat;
+				background-size: cover;
+			}
+
+			&.i-6{
+				width: 65px;
+				svg{
+					width: 65px;
+					height: 60px;
+				}
+			}
+		}
+
+		.practice-line{
+			width: 27px;
+			height: 2px;
+			background: #788AA1;
+			display: block;
+			margin-bottom: 22px;
+		}
+
+		.practice-title{
+			color: #34404D;
+			display: block;
+			font: 500 25px/35px 'Proba';
+			margin-bottom: 20px;
+		}
+
+		.practice-text{
+			color: #788AA1;
+			font: normal 18px/30px 'Proba';
+		}
+	}
+}
+
+//==================== section-task
+.section-task{
+	padding-top: 215px;
+	padding-bottom: 198px;
+	overflow: hidden;
+
+	.container{
+		position: relative;
+
+		&:after{
+			content: '';
+			width: 1px;
+			height: 120%;
+			background: #E7EEF6;
+			position: absolute;
+			top: -228px;
+			left: 218px;
+			z-index: -1;
+		}
+
+		&:before{
+			content: '';
+			width: 1px;
+			height: 120%;
+			background: #E7EEF6;
+			position: absolute;
+			top: -228px;
+			right: 235px;
+			z-index: -1;
+		}
+	}
+
+	h2{
+		width: 530px;
+		font: normal 90px/100px 'Proba';
+		display: block;
+		margin-bottom: 75px;
+		color: #34404D;
+	}
+
+	.sub_title{
+		width: 810px;
+		display: block;
+		margin: 0 auto 137px;
+		color: #34404D;
+		font: normal 40px/50px 'Proba';
+
+		span{
+			color: #0F5EBA;
+		}
+	}
+
+	.task-img{
+		width: 486px;
+		height: 317px;
+		margin-bottom: 110px;
+		display: block;
+
+		&.a-1{
+			float: right;
+			margin-right: 20px;
+		}
+
+		&.a-2{
+			margin-top: 118px;
+		}
+
+		&.a-3{
+			margin-top: 23px;
+			float: right;
+		}
+
+		&.a-4{
+			margin-top: 28px;
+		}
+	}
+
+	.task-text{
+		margin-top: 21px;
+		margin-left: 10px;
+
+		&.i-1{
+			margin-left: 120px;
+		}
+
+		&.i-2{
+			margin-left: 10px;
+			margin-top: 138px;
+		}
+
+		&.i-3{
+			margin-left: 119px;
+			margin-top: 44px;
+		}
+
+		&.i-4{
+			margin-left: 10px;
+			margin-top: 50px;
+		}
+
+		.task-title{
+			color: #34404D;
+			font: 500 30px/45px 'Proba';
+			margin-bottom: 40px;
+		}
+
+		.task-list{
+			margin: 0;
+			padding: 0;
+			width: 480px;
+
+			li{
+				color: #788AA1;
+				font: normal 20px/30px 'Proba';
+				margin-bottom: 10px;
+				position: relative;
+				list-style-type: none;
+
+				&:before{
+					content: '';
+					position: absolute;
+					top: 15px;
+					left: -15px;
+					display: block;
+					width: 5px;
+					height: 5px;
+					border-radius: 100%;
+					background: #0F5EBA;
+				}
+			}
+		}
+	}
+}
+
+//==================== section-how
+.section-how{
+	background: #0F5EBA fixed url("../images/how.png") 50% 50% no-repeat;
+	background-size: cover;
+	padding-top: 180px;
+	padding-bottom: 147px;
+
+	h2{
+		color: #fff;
+		font: normal 90px/96px 'Proba';
+		display: block;
+		margin-bottom: 101px;
+		margin-left: 104px;
+	}
+
+	.how-wrapper{
+		width: 1022px;
+		height: 180px;
+		display: block;
+		margin: 50px auto 0;
+		padding-left: 105px;
+		padding-top: 10px;
+		padding-right: 74px;
+		border-bottom: 2px solid rgba(256, 256, 256, 0.25);
+
+		&.i-1{
+			border-bottom: none;
+		}
+
+		&.i-3{
+			height: 137px;
+		}
+
+		&.i-4{
+			height: 137px;
+		}
+
+		.how-number{
+			width: 60px;
+			height: 60px;
+			position: relative;
+			display: inline-block;
+			border-radius: 100%;
+			border: 2px solid #FFFFFF;
+			margin-right: 10px;
+
+			span{
+				position: absolute;
+				width: 30px;
+				height: 27px;
+				text-align: center;
+				@include abs-center;
+				color: #fff;
+				font: normal 25px/25px 'Proba';
+			}
+		}
+
+		.how-text{
+			width: 87%;
+			margin-top: -12px;
+			display: inline-block;
+			vertical-align: top;
+			margin-left: 27px;
+			color: #FFFFFF;
+			font: normal 25px/40px 'Proba';
+		}
+	}
+}
+
+//==================== section-process
+.section-process{
+	padding-top: 197px;
+	padding-bottom: 98px;
+
+	h2{
+		color: #34404D;
+		font: normal 90px/100px 'Proba';
+		display: block;
+		margin-bottom: 218px;
+	}
+
+	.img-process{
+		@include abs-center;
+		top: 180px;
+		width: 238px;
+		height: 1930px;
+	}
+
+	.process-icon{
+		width: 54px;
+		height: 82px;
+		display: block;
+		margin: 0 auto;
+
+		svg{
+			width: 54px;
+			height: 82px;
+		}
+
+		&.right{
+			margin-left: 274px;
+		}
+
+		&.vector{
+			width: 81px;
+			height: 81px;
+			margin-top: 25px;
+			margin-left: 251px;
+
+			svg{
+				width: 81px;
+				height: 81px;
+			}
+		}
+
+		&.dollar{
+			width: 92px;
+			height: 49px;
+			margin-top: 55px;
+			margin-left: 248px;
+
+			svg{
+				width: 92px;
+				height: 49px;
+			}
+		}
+
+		&.page{
+			width: 70px;
+			height: 100px;
+			margin-top: 10px;
+			margin-left: 259px;
+
+			svg{
+				width: 70px;
+				height: 100px;
+			}
+		}
+
+		&.display{
+			margin-top: 36px;
+			width: 114px;
+			height: 80px;
+			margin-left: 240px;
+
+			svg{
+				width: 114px;
+				height: 80px;
+			}
+		}
+
+		&.show{
+			width: 91px;
+			height: 75px;
+			margin-top: 17px;
+			margin-left: 247px;
+
+			svg{
+				width: 91px;
+				height: 75px;
+			}
+		}
+	}
+
+	.process-block{
+		margin-left: 202px;
+		display: block;
+		margin-bottom: 215px;
+
+		.step{
+			color: #0F5EBA;
+			display: block;
+			font: 500 15px/15px 'Proba';
+			margin-bottom: 32px;
+		}
+
+		.text{
+			width: 420px;
+			color: #788AA1;
+			font: normal 20px/40px 'Proba';
+		}
+
+		&.left{
+			margin-left: 0;
+			margin-bottom: 161px;
+		}
+
+		&.step-3{
+			margin-left: 202px;
+			margin-bottom: 189px;
+
+			.text{
+				width: 400px;
+			}
+		}
+
+		&.step-4{
+			margin-left: 0;
+			margin-bottom: 189px;
+		}
+
+		&.step-5{
+			margin-left: 203px;
+			margin-bottom: 192px;
+		}
+
+		&.step-6{
+			margin-left: 0;
+		}
+	}
+}
 
 //==================== section x
 .section-x {
@@ -169,6 +686,8 @@
 	h2 {
 		margin-bottom: 0px;
 	}
+
+
 }
 
 //==================== section map
