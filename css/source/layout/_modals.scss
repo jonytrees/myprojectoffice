@@ -18,7 +18,7 @@ html {
 .si-overlay {
 	@include abs-center-fixed;
 	display: none;
-	background: transparentize(#000, .2);
+	background: rgba(33, 36, 38, 0.7);
 	z-index: 203;
 }
 
@@ -45,8 +45,8 @@ html {
 	@extend .icon;
 	@extend .close !optional;
 	position: absolute !important;
-	top: 30px;
-	right: 30px;
+	top: 50px;
+	right: 50px;
 }
 
 //==================== modal - basic
@@ -56,11 +56,18 @@ html {
 	transition-duration: 0.5s;
 	display: none;
 	position: relative;
-	color: $font-color;
-	background: #fff;
-	padding: 20px 20px 20px;
-	width: 500px;
+	color: #34404D;
+	padding: 90px 105px 108px;
+	width: 1010px;
 	margin: 50px auto;
+	background: url("../images/modal-bg.jpg") 50% 50% no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+
+	@include mobile{
+	width: 100%;
+		padding: 90px 0 108px;
+}
 
 	&.si-visible {
 		@include transform(scale(1));
@@ -70,17 +77,30 @@ html {
 		margin-top: 0px;
 	}
 
-	.btn {
-		min-width: 300px;
+
+	.form-modal{
+		input{
+			margin-bottom: 20px;
+		}
+
+		.form-agree-check{
+			color: #34404D;
+		}
 	}
 }
 
 .modal-form-title {
-  	margin-bottom: 0px;
+  	margin-bottom: 18px;
+	text-align: center;
+	font: normal 50px/50px 'Proba';
+	display: block;
 }
 
 .modal-time {
-  	margin-bottom: 0px;
+  	margin-bottom: 50px;
+	text-align: center;
+	font: normal 30px/30px 'Proba';
+	display: block;
 }
 
 //==================== modal - text
@@ -103,6 +123,11 @@ html {
 
 .success-time {
   	@extend .modal-time !optional;
+}
+
+.time-text{
+	font: normal 30px/45px 'Proba';
+	color: #34404D;
 }
 
 //==================== message

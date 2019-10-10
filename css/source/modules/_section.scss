@@ -17,6 +17,10 @@ h1, h2{
 	position: relative;
 	z-index: 10;
 
+	@include mobile{
+
+	}
+
 	.small-title{
 		color: #788AA1;
 		font: 30px/35px 'Proba';
@@ -110,6 +114,10 @@ h1, h2{
 			top: -132px;
 			right: 105px;
 
+			@include mobile{
+				right: 25%;
+			}
+
 			&:hover{
 				padding-top: 58px;
 				@include general-transition;
@@ -146,6 +154,15 @@ h1, h2{
 			padding-top: 132px;
 			padding-left: 201px;
 
+			@include mobile{
+				width: 100%;
+				padding-top: 190px;
+				padding-left: 74px;
+				padding-right: 54px;
+				height: 647px;
+				top: 240px;
+			}
+
 
 			.title{
 				width: 450px;
@@ -153,6 +170,10 @@ h1, h2{
 				font: normal 50px/50px 'Proba';
 				display: block;
 				margin-bottom: 33px;
+
+				@include mobile{
+					width: 100%;
+				}
 			}
 
 			.text{
@@ -161,6 +182,10 @@ h1, h2{
 				font: normal 20px/40px 'Proba';
 				color: #788AA1;
 				position: relative;
+
+				@include mobile{
+					width: 100%;
+				}
 			}
 		}
 	}
@@ -171,6 +196,12 @@ h1, h2{
 	padding-top: 450px;
 	padding-bottom: 192px;
 	background: url('../images/practic.jpg') 50% 100% no-repeat;
+
+	@include mobile{
+		padding-top: 653px;
+		padding-bottom: 130px;
+		background: url('../images/practice-mobile.png') 50% 100% no-repeat;
+	}
 
 	&:after{
 		content: '';
@@ -187,6 +218,11 @@ h1, h2{
 		display: inline-block;
 		margin-bottom: 95px;
 
+		@include mobile{
+			width: 100%;
+			margin-bottom: 0;
+		}
+
 		h1{
 			display: block;
 			color: #34404D;
@@ -197,6 +233,7 @@ h1, h2{
 		.sub_h1{
 			width: 600px;
 			display: block;
+
 
 			.icon{
 				display: inline-block;
@@ -239,6 +276,14 @@ h1, h2{
 		margin-top: 57px;
 		color: #788AA1;
 		font: normal 20px/40px 'Proba';
+
+		@include mobile{
+			width: 100%;
+			float: none;
+			display: block;
+			margin-top: 30px;
+			margin-bottom: 70px;
+		}
 	}
 
 	.practice-block{
@@ -249,6 +294,14 @@ h1, h2{
 		padding-left: 50px;
 		padding-right: 45px;
 		margin-bottom: 28px;
+
+		@include mobile{
+			width: 100%;
+			padding-left: 25px;
+			padding-top: 90px;
+			padding-right: 25px;
+			height: 550px;
+		}
 
 		//&.center{
 		//	margin: 0 auto;
@@ -338,6 +391,11 @@ h1, h2{
 	padding-bottom: 198px;
 	overflow: hidden;
 
+	@include mobile{
+		padding-top: 117px;
+		padding-bottom: 30px;
+	}
+
 	.container{
 		position: relative;
 
@@ -362,6 +420,16 @@ h1, h2{
 			right: 235px;
 			z-index: -1;
 		}
+
+		@include mobile{
+			&:after{
+				left: 160px;
+			}
+
+			&:before{
+				right: 160px;
+			}
+		}
 	}
 
 	h2{
@@ -370,6 +438,10 @@ h1, h2{
 		display: block;
 		margin-bottom: 75px;
 		color: #34404D;
+
+		@include mobile{
+			margin-bottom: 35px;
+		}
 	}
 
 	.sub_title{
@@ -378,6 +450,11 @@ h1, h2{
 		margin: 0 auto 137px;
 		color: #34404D;
 		font: normal 40px/50px 'Proba';
+
+		@include mobile{
+			width: 100%;
+			margin-bottom: 90px;
+		}
 
 		span{
 			color: #0F5EBA;
@@ -390,18 +467,37 @@ h1, h2{
 		margin-bottom: 110px;
 		display: block;
 
+		@include mobile{
+			width: 100%;
+			height: auto;
+			margin-bottom: 40px;
+		}
+
 		&.a-1{
 			float: right;
 			margin-right: 20px;
+
+			@include mobile{
+				margin-right: 0;
+				float: none;
+			}
 		}
 
 		&.a-2{
 			margin-top: 118px;
+
+			@include mobile{
+				margin-top: 0;
+			}
 		}
 
 		&.a-3{
 			margin-top: 23px;
 			float: right;
+
+			@include mobile{
+				float: none;
+			}
 		}
 
 		&.a-4{
@@ -413,23 +509,47 @@ h1, h2{
 		margin-top: 21px;
 		margin-left: 10px;
 
+		@include mobile{
+			margin-left: 20px;
+			margin-bottom: 100px;
+		}
+
 		&.i-1{
 			margin-left: 120px;
+
+			@include mobile{
+				margin-left: 20px;
+			}
 		}
 
 		&.i-2{
 			margin-left: 10px;
 			margin-top: 138px;
+
+			@include mobile{
+				margin-left: 20px;
+				margin-top: 0;
+			}
 		}
 
 		&.i-3{
 			margin-left: 119px;
 			margin-top: 44px;
+
+			@include mobile{
+				margin-left: 20px;
+				margin-top: 0;
+			}
 		}
 
 		&.i-4{
 			margin-left: 10px;
 			margin-top: 50px;
+
+			@include mobile{
+				margin-left: 20px;
+				margin-top: 0;
+			}
 		}
 
 		.task-title{
@@ -473,12 +593,21 @@ h1, h2{
 	padding-top: 180px;
 	padding-bottom: 147px;
 
+	@include mobile{
+		padding-top: 140px;
+		padding-bottom: 47px;
+	}
+
 	h2{
 		color: #fff;
 		font: normal 90px/96px 'Proba';
 		display: block;
 		margin-bottom: 101px;
 		margin-left: 104px;
+
+		@include mobile{
+			margin-left: 0;
+		}
 	}
 
 	.how-wrapper{
@@ -491,16 +620,31 @@ h1, h2{
 		padding-right: 74px;
 		border-bottom: 2px solid rgba(256, 256, 256, 0.25);
 
+		@include mobile{
+			width: 100%;
+			height: 240px;
+			padding-left: 0;
+			padding-right: 0;
+		}
+
 		&.i-1{
 			border-bottom: none;
 		}
 
 		&.i-3{
 			height: 137px;
+
+			@include mobile{
+				height: 157px;
+			}
 		}
 
 		&.i-4{
 			height: 137px;
+
+			@include mobile{
+				height: 200px;
+			}
 		}
 
 		.how-number{
@@ -511,6 +655,10 @@ h1, h2{
 			border-radius: 100%;
 			border: 2px solid #FFFFFF;
 			margin-right: 10px;
+
+			@include mobile{
+				margin-right: 9px;
+			}
 
 			span{
 				position: absolute;
@@ -531,6 +679,12 @@ h1, h2{
 			margin-left: 27px;
 			color: #FFFFFF;
 			font: normal 25px/40px 'Proba';
+
+			@include mobile{
+				width: 85%;
+				float: right;
+				margin-left: 0;
+			}
 		}
 	}
 }
@@ -539,12 +693,57 @@ h1, h2{
 .section-process{
 	padding-top: 197px;
 	padding-bottom: 98px;
+	overflow: hidden;
+
+	.container{
+		position: relative;
+
+		&:after{
+			content: '';
+			width: 1px;
+			height: 120%;
+			background: #E7EEF6;
+			position: absolute;
+			top: -228px;
+			left: 218px;
+			z-index: -1;
+
+			@include mobile{
+				display: none;
+			}
+		}
+
+		&:before{
+			content: '';
+			width: 1px;
+			height: 120%;
+			background: #E7EEF6;
+			position: absolute;
+			top: -228px;
+			right: 235px;
+			z-index: -1;
+
+			@include mobile{
+				display: none;
+			}
+		}
+
+	}
+
+	@include mobile{
+		padding-top: 150px;
+		padding-bottom: 48px;
+	}
 
 	h2{
 		color: #34404D;
 		font: normal 90px/100px 'Proba';
 		display: block;
 		margin-bottom: 218px;
+
+		@include mobile{
+			margin-bottom: 140px;
+		}
 	}
 
 	.img-process{
@@ -552,6 +751,11 @@ h1, h2{
 		top: 180px;
 		width: 238px;
 		height: 1930px;
+
+		@include mobile{
+			width: 92px;
+			height: 1552px;
+		}
 	}
 
 	.process-icon{
@@ -559,6 +763,10 @@ h1, h2{
 		height: 82px;
 		display: block;
 		margin: 0 auto;
+
+		@include mobile{
+			margin: 0 auto;
+		}
 
 		svg{
 			width: 54px;
@@ -579,6 +787,10 @@ h1, h2{
 				width: 81px;
 				height: 81px;
 			}
+
+			@include mobile{
+				margin: 70px auto ;
+			}
 		}
 
 		&.dollar{
@@ -590,6 +802,10 @@ h1, h2{
 			svg{
 				width: 92px;
 				height: 49px;
+			}
+
+			@include mobile{
+				margin: 40px auto 0;
 			}
 		}
 
@@ -603,6 +819,10 @@ h1, h2{
 				width: 70px;
 				height: 100px;
 			}
+
+			@include mobile{
+				margin: 0 auto;
+			}
 		}
 
 		&.display{
@@ -614,6 +834,10 @@ h1, h2{
 			svg{
 				width: 114px;
 				height: 80px;
+			}
+
+			@include mobile{
+				margin: 0 auto;
 			}
 		}
 
@@ -627,6 +851,10 @@ h1, h2{
 				width: 91px;
 				height: 75px;
 			}
+
+			@include mobile{
+				margin: 0 auto;
+			}
 		}
 	}
 
@@ -634,6 +862,11 @@ h1, h2{
 		margin-left: 202px;
 		display: block;
 		margin-bottom: 215px;
+
+		@include mobile{
+			float: right;
+			margin-bottom: 85px;
+		}
 
 		.step{
 			color: #0F5EBA;
@@ -646,34 +879,66 @@ h1, h2{
 			width: 420px;
 			color: #788AA1;
 			font: normal 20px/40px 'Proba';
+
+			@include mobile{
+				width: 220px;
+			}
 		}
 
 		&.left{
 			margin-left: 0;
 			margin-bottom: 161px;
+
+			@include mobile{
+				float: none;
+				margin-bottom: 50px;
+			}
 		}
 
 		&.step-3{
 			margin-left: 202px;
 			margin-bottom: 189px;
 
+			@include mobile{
+				margin-left: 0;
+				margin-bottom: 70px;
+			}
+
 			.text{
 				width: 400px;
+
+				@include mobile{
+					width: 200px;
+				}
 			}
 		}
 
 		&.step-4{
 			margin-left: 0;
 			margin-bottom: 189px;
+
+			@include mobile{
+				float: none;
+				margin-bottom: 50px;
+			}
 		}
 
 		&.step-5{
 			margin-left: 203px;
 			margin-bottom: 192px;
+
+			@include mobile{
+				margin-left: 0;
+				margin-bottom: 70px;
+			}
 		}
 
 		&.step-6{
 			margin-left: 0;
+
+			@include mobile{
+				float: none;
+			}
 		}
 	}
 }

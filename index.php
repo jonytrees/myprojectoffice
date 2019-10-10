@@ -39,10 +39,8 @@ $image = SI_CurrentPageImage();
 
     <!-- CSS styles -->
     <link rel="stylesheet" href="css/jquery.fancybox.min.css" type="text/css" media="screen">
-    <link rel="stylesheet" href="css/jquery.formstyler.min.css" type="text/css" media="screen">
-    <link rel="stylesheet" href="css/swiper.min.css" type="text/css" media="screen">
+<!--    <link rel="stylesheet" href="css/swiper.min.css" type="text/css" media="screen">-->
     <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
-    <link rel="stylesheet" href="css/style-fix.css" type="text/css" media="screen">
 
 
     <!-- OGP -->
@@ -68,7 +66,7 @@ $image = SI_CurrentPageImage();
             <div class="row">
 
                 <!-- Logo -->
-                <div class="col-7-12">
+                <div class="col-7-12 col-xs-1-3">
                     <a href="#" class="logo si-jump">
                         <img src="images/logo.png" alt=" ">
                     </a>
@@ -86,7 +84,7 @@ $image = SI_CurrentPageImage();
                 </div>
 
                 <!-- Phone block -->
-                <div class="col-5-12">
+                <div class="col-5-12 col-xs-2-3">
                     <select name="lang" class="lang">
                         <option value="ru">ru</option>
                         <option value="en">en</option>
@@ -106,19 +104,27 @@ $image = SI_CurrentPageImage();
     <section class="section-heading" id="heading">
         <div class="container">
 
-            <div class="small-title">
+            <div class="small-title cre-animate"
+                 data-animation="slide-in-from-right" data-speed="1500" data-delay="300"
+                 data-offset="90%" data-easing="easeOutQuint">
                 Управление международными проектами
             </div>
 
-            <h1>
+            <h1 class="cre-animate"
+                data-animation="slide-in-from-left" data-speed="1500" data-delay="600"
+                data-offset="90%" data-easing="easeOutQuint">
                 Помогаем достигать результатов
             </h1>
 
-            <div class="sub-title">
+            <div class="sub-title cre-animate"
+                 data-animation="slide-in-from-right" data-speed="1500" data-delay="900"
+                 data-offset="90%" data-easing="easeOutQuint">
                 Ответственно. Конфиденциально. С измеримым результатом.
             </div>
 
-            <div class="last-wrapper">
+            <div class="last-wrapper cre-animate"
+                 data-animation="slide-in-from-left" data-speed="1500" data-delay="1200"
+                 data-offset="90%" data-easing="easeOutQuint">
                 <div class="last-block">
                     <div class="title">
                         15
@@ -143,7 +149,9 @@ $image = SI_CurrentPageImage();
 
         <div class="big-container">
             <div class="department-wrapper">
-                <a href="#" class="more-block">
+                <a href="#" class="more-block cre-animate"
+                   data-animation="slide-in-from-right" data-speed="1500" data-delay="300"
+                   data-offset="90%" data-easing="easeOutQuint">
                 <span class="more-text">
                     Узнать  <br> больше
                 </span>
@@ -163,7 +171,9 @@ $image = SI_CurrentPageImage();
     <!--===================================================== section practice -->
     <section class="section-practice" id="practice">
         <div class="container">
-            <div class="block-title">
+            <div class="block-title cre-animate"
+                 data-animation="slide-in-from-left" data-speed="1500" data-delay="300"
+                 data-offset="90%" data-easing="easeOutQuint">
                 <h1>
                     Практики, а не консультанты
                 </h1>
@@ -176,91 +186,198 @@ $image = SI_CurrentPageImage();
                 </div>
             </div>
 
-            <div class="block-text">
+            <div class="block-text cre-animate"
+                 data-animation="slide-in-from-right" data-speed="1500" data-delay="500"
+                 data-offset="90%" data-easing="easeOutQuint">
                 Ведение проектов на международном рынке характеризуется наличием малоизвестных и плохо предсказуемых рисков, несвойственных для внутрироссийских или постсоветских территорий. Главная ценность предоставляемой услуги, заключается в том, что наша команда с многолетним опытом может более эффективно идентифицировать потенциальные риски, а также выполнить проект оптимальным способом с учетом имеющейся практики.
             </div>
-            <div class="row">
-                <div class="col-1-3">
-                    <div class="practice-block">
-                        <div class="practice-icon i-1">
-                            <?php include('svg/show.svg'); ?>
+            <div class="hidden-xs">
+                <div class="row">
+                    <div class="col-1-3">
+                        <div class="practice-block cre-animate"
+                             data-animation="slide-in-from-right" data-speed="1500" data-delay="300"
+                             data-offset="90%" data-easing="easeOutQuint">
+                            <div class="practice-icon i-1">
+                                <?php include('svg/show.svg'); ?>
+                            </div>
+                            <div class="practice-line"></div>
+                            <div class="practice-title">
+                                Обеспечиваем <br>прозрачность процесса
+                            </div>
+                            <div class="practice-text">
+                                Своевременно предоставляем отчеты о ходе выполнения проекта в установленном формат.
+                            </div>
                         </div>
-                        <div class="practice-line"></div>
-                        <div class="practice-title">
-                            Обеспечиваем <br>прозрачность процесса
+                    </div>
+                    <div class="col-1-3">
+                        <div class="practice-block center cre-animate"
+                             data-animation="slide-in-from-right" data-speed="1500" data-delay="600"
+                             data-offset="90%" data-easing="easeOutQuint">
+                            <div class="practice-icon i-2">
+                                <?php include('svg/frame.svg'); ?>
+                            </div>
+                            <div class="practice-line"></div>
+                            <div class="practice-title">
+                                Контролируем сроки,<br> бюджет и качество
+                            </div>
+                            <div class="practice-text">
+                                Достигаем цели проекта в заданные сроки, в рамках утвержденного бюджета и требуемого качества.
+                            </div>
                         </div>
-                        <div class="practice-text">
-                            Своевременно предоставляем отчеты о ходе выполнения проекта в установленном формат.
+                    </div>
+                    <div class="col-1-3">
+                        <div class="practice-block right cre-animate"
+                             data-animation="slide-in-from-right" data-speed="1500" data-delay="900"
+                             data-offset="90%" data-easing="easeOutQuint">
+                            <div class="practice-icon i-3">
+                                <?php include('svg/vector.svg'); ?>
+                            </div>
+                            <div class="practice-line"></div>
+                            <div class="practice-title">
+                                Идентифицируем и <br> управляем рисками
+                            </div>
+                            <div class="practice-text">
+                                Анализируем проект на наличие потенциальных рисков, планируем мероприятия по уменьшению их влияния.
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-1-3">
-                    <div class="practice-block center">
-                        <div class="practice-icon i-2">
-                            <?php include('svg/frame.svg'); ?>
-                        </div>
-                        <div class="practice-line"></div>
-                        <div class="practice-title">
-                            Контролируем сроки,<br> бюджет и качество
-                        </div>
-                        <div class="practice-text">
-                            Достигаем цели проекта в заданные сроки, в рамках утвержденного бюджета и требуемого качества.
+                <div class="row">
+                    <div class="col-1-3">
+                        <div class="practice-block cre-animate"
+                             data-animation="slide-in-from-left" data-speed="1500" data-delay="300"
+                             data-offset="90%" data-easing="easeOutQuint">
+                            <div class="practice-icon i-4">
+                                <?php include('svg/profile.svg'); ?>
+                            </div>
+                            <div class="practice-line"></div>
+                            <div class="practice-title">
+                                Управляем <br> коммуникациями
+                            </div>
+                            <div class="practice-text">
+                                Формализуем процесс общения с заказчиком, готовим и согласуем планы коммуникаций и эскалации.
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-1-3">
-                    <div class="practice-block right">
-                        <div class="practice-icon i-3">
-                            <?php include('svg/vector.svg'); ?>
+                    <div class="col-1-3">
+                        <div class="practice-block cre-animate"
+                             data-animation="slide-in-from-left" data-speed="1500" data-delay="600"
+                             data-offset="90%" data-easing="easeOutQuint">
+                            <div class="practice-icon i-5"></div>
+                            <div class="practice-line"></div>
+                            <div class="practice-title">
+                                Подбираем локальных<br> партнеров
+                            </div>
+                            <div class="practice-text">
+                                Помогаем подобрать локальных подрядчиков и поставщиков, имеем проверенных партнеров в нескольких регионах.
+                            </div>
                         </div>
-                        <div class="practice-line"></div>
-                        <div class="practice-title">
-                            Идентифицируем и <br> управляем рисками
-                        </div>
-                        <div class="practice-text">
-                            Анализируем проект на наличие потенциальных рисков, планируем мероприятия по уменьшению их влияния.
+                    </div>
+                    <div class="col-1-3">
+                        <div class="practice-block cre-animate"
+                             data-animation="slide-in-from-left" data-speed="1500" data-delay="900"
+                             data-offset="90%" data-easing="easeOutQuint">
+                            <div class="practice-icon i-6">
+                                <?php include('svg/page2.svg'); ?>
+                            </div>
+                            <div class="practice-line"></div>
+                            <div class="practice-title">
+                                Гарантируем<br> конфиденциальность
+                            </div>
+                            <div class="practice-text">
+                                Подписываем NDA: данные о наших клиентах и их проектах никогда не передаются третьим сторонам.
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-1-3">
-                    <div class="practice-block">
-                        <div class="practice-icon i-4">
-                            <?php include('svg/profile.svg'); ?>
+
+            <div class="visible-xs">
+                <div class="row">
+                    <div class="col-1-2">
+                        <div class="practice-block">
+                            <div class="practice-icon i-1">
+                                <?php include('svg/show.svg'); ?>
+                            </div>
+                            <div class="practice-line"></div>
+                            <div class="practice-title">
+                                Обеспечиваем <br>прозрачность процесса
+                            </div>
+                            <div class="practice-text">
+                                Своевременно предоставляем отчеты о ходе выполнения проекта в установленном формат.
+                            </div>
                         </div>
-                        <div class="practice-line"></div>
-                        <div class="practice-title">
-                            Управляем <br> коммуникациями
-                        </div>
-                        <div class="practice-text">
-                            Формализуем процесс общения с заказчиком, готовим и согласуем планы коммуникаций и эскалации.
+                    </div>
+                    <div class="col-1-2">
+                        <div class="practice-block center">
+                            <div class="practice-icon i-2">
+                                <?php include('svg/frame.svg'); ?>
+                            </div>
+                            <div class="practice-line"></div>
+                            <div class="practice-title">
+                                Контролируем сроки,<br> бюджет и качество
+                            </div>
+                            <div class="practice-text">
+                                Достигаем цели проекта в заданные сроки, в рамках утвержденного бюджета и требуемого качества.
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-1-3">
-                    <div class="practice-block">
-                        <div class="practice-icon i-5"></div>
-                        <div class="practice-line"></div>
-                        <div class="practice-title">
-                            Подбираем локальных<br> партнеров
+                <div class="row">
+                    <div class="col-1-2">
+                        <div class="practice-block right">
+                            <div class="practice-icon i-3">
+                                <?php include('svg/vector.svg'); ?>
+                            </div>
+                            <div class="practice-line"></div>
+                            <div class="practice-title">
+                                Идентифицируем и <br> управляем рисками
+                            </div>
+                            <div class="practice-text">
+                                Анализируем проект на наличие потенциальных рисков, планируем мероприятия по уменьшению их влияния.
+                            </div>
                         </div>
-                        <div class="practice-text">
-                            Помогаем подобрать локальных подрядчиков и поставщиков, имеем проверенных партнеров в нескольких регионах.
+                    </div>
+                    <div class="col-1-2">
+                        <div class="practice-block">
+                            <div class="practice-icon i-4">
+                                <?php include('svg/profile.svg'); ?>
+                            </div>
+                            <div class="practice-line"></div>
+                            <div class="practice-title">
+                                Управляем <br> коммуникациями
+                            </div>
+                            <div class="practice-text">
+                                Формализуем процесс общения с заказчиком, готовим и согласуем планы коммуникаций и эскалации.
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-1-3">
-                    <div class="practice-block">
-                        <div class="practice-icon i-6">
-                            <?php include('svg/page2.svg'); ?>
+                <div class="row">
+                    <div class="col-1-2">
+                        <div class="practice-block">
+                            <div class="practice-icon i-5"></div>
+                            <div class="practice-line"></div>
+                            <div class="practice-title">
+                                Подбираем локальных<br> партнеров
+                            </div>
+                            <div class="practice-text">
+                                Помогаем подобрать локальных подрядчиков и поставщиков, имеем проверенных партнеров в нескольких регионах.
+                            </div>
                         </div>
-                        <div class="practice-line"></div>
-                        <div class="practice-title">
-                            Гарантируем<br> конфиденциальность
-                        </div>
-                        <div class="practice-text">
-                            Подписываем NDA: данные о наших клиентах и их проектах никогда не передаются третьим сторонам.
+                    </div>
+                    <div class="col-1-2">
+                        <div class="practice-block">
+                            <div class="practice-icon i-6">
+                                <?php include('svg/page2.svg'); ?>
+                            </div>
+                            <div class="practice-line"></div>
+                            <div class="practice-title">
+                                Гарантируем<br> конфиденциальность
+                            </div>
+                            <div class="practice-text">
+                                Подписываем NDA: данные о наших клиентах и их проектах никогда не передаются третьим сторонам.
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -271,18 +388,26 @@ $image = SI_CurrentPageImage();
     <!--===================================================== section x -->
     <section class="section-task" id="task">
         <div class="container">
-            <h2>
+            <h2 class="cre-animate"
+                data-animation="slide-in-from-right" data-speed="1500" data-delay="300"
+                data-offset="90%" data-easing="easeOutQuint">
                 Какие задачи мы решаем
             </h2>
-            <div class="sub_title">
+            <div class="sub_title cre-animate"
+                 data-animation="slide-in-from-left" data-speed="1500" data-delay="500"
+                 data-offset="90%" data-easing="easeOutQuint">
                 Методология ведения проектов - PMI (Project Management Institute)/PMBOK с глубокой адаптацией под
                 нужды вашей организации. <span>Комбинирование классических подходов с практиками SCRUM.</span>
             </div>
             <div class="row">
-                <div class="col-1-2">
+                <div class="col-1-2 col-xs-1 cre-animate"
+                     data-animation="slide-in-from-left" data-speed="1500" data-delay="300"
+                     data-offset="90%" data-easing="easeOutQuint">
                     <img src="images/task-img-1.jpg" alt=" " class="task-img">
                 </div>
-                <div class="col-1-2">
+                <div class="col-1-2 col-xs-1 cre-animate"
+                     data-animation="slide-in-from-right" data-speed="1500" data-delay="300"
+                     data-offset="90%" data-easing="easeOutQuint">
                     <div class="task-text">
                         <div class="task-title">
                             Участие в международных тендерах
@@ -302,7 +427,12 @@ $image = SI_CurrentPageImage();
                 </div>
             </div>
             <div class="row">
-                <div class="col-1-2">
+                <div class="col-1-2 col-xs-1 visible-xs">
+                    <img src="images/task-img-2.jpg" alt=" " class="task-img a-1">
+                </div>
+                <div class="col-1-2 col-xs-1 cre-animate"
+                     data-animation="slide-in-from-left" data-speed="1500" data-delay="300"
+                     data-offset="90%" data-easing="easeOutQuint">
                     <div class="task-text i-1">
                         <div class="task-title">
                             Реализация и сопровождение <Br> проектов
@@ -332,15 +462,21 @@ $image = SI_CurrentPageImage();
                         </ul>
                     </div>
                 </div>
-                <div class="col-1-2">
+                <div class="col-1-2 col-xs-1 hidden-xs cre-animate"
+                     data-animation="slide-in-from-right" data-speed="1500" data-delay="300"
+                     data-offset="90%" data-easing="easeOutQuint">
                     <img src="images/task-img-2.jpg" alt=" " class="task-img a-1">
                 </div>
             </div>
             <div class="row">
-                <div class="col-1-2">
+                <div class="col-1-2 col-xs-1 cre-animate"
+                     data-animation="slide-in-from-left" data-speed="1500" data-delay="300"
+                     data-offset="90%" data-easing="easeOutQuint">
                     <img src="images/task-img-3.jpg" alt=" " class="task-img a-2">
                 </div>
-                <div class="col-1-2">
+                <div class="col-1-2 col-xs-1 cre-animate"
+                     data-animation="slide-in-from-right" data-speed="1500" data-delay="300"
+                     data-offset="90%" data-easing="easeOutQuint">
                     <div class="task-text i-2">
                         <div class="task-title">
                             Вывод компании на международный<br> рынок
@@ -361,7 +497,12 @@ $image = SI_CurrentPageImage();
                 </div>
             </div>
             <div class="row">
-                <div class="col-1-2">
+                <div class="col-1-2 col-xs-1 visible-xs">
+                    <img src="images/task-img-4.jpg" alt=" " class="task-img a-1 a-3">
+                </div>
+                <div class="col-1-2 col-xs-1 cre-animate"
+                     data-animation="slide-in-from-left" data-speed="1500" data-delay="300"
+                     data-offset="90%" data-easing="easeOutQuint">
                     <div class="task-text i-1 i-3">
                         <div class="task-title">
                             Проведение выставок
@@ -379,15 +520,21 @@ $image = SI_CurrentPageImage();
                         </ul>
                     </div>
                 </div>
-                <div class="col-1-2">
+                <div class="col-1-2 col-xs-1 hidden-xs cre-animate"
+                     data-animation="slide-in-from-right" data-speed="1500" data-delay="300"
+                     data-offset="90%" data-easing="easeOutQuint">
                     <img src="images/task-img-4.jpg" alt=" " class="task-img a-1 a-3">
                 </div>
             </div>
             <div class="row">
-                <div class="col-1-2">
+                <div class="col-1-2 col-xs-1 cre-animate"
+                     data-animation="slide-in-from-left" data-speed="1500" data-delay="300"
+                     data-offset="90%" data-easing="easeOutQuint">
                     <img src="images/task-img-5.jpg" alt=" " class="task-img a-4">
                 </div>
-                <div class="col-1-2">
+                <div class="col-1-2 col-xs-1 cre-animate"
+                     data-animation="slide-in-from-right" data-speed="1500" data-delay="300"
+                     data-offset="90%" data-easing="easeOutQuint">
                     <div class="task-text i-4">
                         <div class="task-title">
                             Использование современных<br> методов управления
@@ -412,10 +559,14 @@ $image = SI_CurrentPageImage();
     <!--===================================================== section how -->
     <section class="section-how" id="how">
         <div class="container">
-            <h2>
+            <h2 class="cre-animate"
+                data-animation="slide-in-from-left" data-speed="1500" data-delay="300"
+                data-offset="90%" data-easing="easeOutQuint">
                 Как отслеживаем<br> показатели
             </h2>
-            <div class="how-wrapper">
+            <div class="how-wrapper cre-animate"
+                 data-animation="slide-in-from-right" data-speed="1500" data-delay="600"
+                 data-offset="90%" data-easing="easeOutQuint">
                 <div class="how-number">
                     <span>01</span>
                 </div>
@@ -423,7 +574,9 @@ $image = SI_CurrentPageImage();
                     Фиксация плановых показателей бюджета (общий расходный бюджет по статьям, план признания выручки, план движения денежных средств) с разбиением на короткие интервалы (1-3 мес).
                 </div>
             </div>
-            <div class="how-wrapper">
+            <div class="how-wrapper cre-animate"
+                 data-animation="slide-in-from-left" data-speed="1500" data-delay="900"
+                 data-offset="90%" data-easing="easeOutQuint">
                 <div class="how-number">
                     <span>02</span>
                 </div>
@@ -431,7 +584,9 @@ $image = SI_CurrentPageImage();
                     Отчётность относительно достижения результатов по интервалу и целому бюджету. По необходимости- внесение согласованных корректировок в следующие интервалы.
                 </div>
             </div>
-            <div class="how-wrapper i-3">
+            <div class="how-wrapper i-3 cre-animate"
+                 data-animation="slide-in-from-right" data-speed="1500" data-delay="1200"
+                 data-offset="90%" data-easing="easeOutQuint">
                 <div class="how-number">
                     <span>03</span>
                 </div>
@@ -439,7 +594,9 @@ $image = SI_CurrentPageImage();
                     Фиксация мастер-плана и контрольных точек. Контроль прохождения точек, корректировка плана по необходимости.
                 </div>
             </div>
-            <div class="how-wrapper i-4">
+            <div class="how-wrapper i-4 cre-animate"
+                 data-animation="slide-in-from-left" data-speed="1500" data-delay="1500"
+                 data-offset="90%" data-easing="easeOutQuint">
                 <div class="how-number">
                     <span>04</span>
                 </div>
@@ -447,7 +604,9 @@ $image = SI_CurrentPageImage();
                     Регулярная ревизия плана управления рисками, комментарии и фокус на критических рисках в каждый отчетный период.
                 </div>
             </div>
-            <div class="how-wrapper i-1">
+            <div class="how-wrapper i-1 cre-animate"
+                 data-animation="slide-in-from-right" data-speed="1500" data-delay="1800"
+                 data-offset="90%" data-easing="easeOutQuint">
                 <div class="how-number">
                     <span>05</span>
                 </div>
@@ -462,19 +621,26 @@ $image = SI_CurrentPageImage();
     <!--===================================================== section process -->
     <section class="section-process" id="process">
         <div class="container">
-            <h2>
+            <h2 class="cre-animate"
+                data-animation="slide-in-from-left" data-speed="1500" data-delay="300"
+                data-offset="90%" data-easing="easeOutQuint">
                 Процесс работы <br> над проектами
             </h2>
 
-            <img src="images/process-img.png" alt=" " class="img-process">
+            <img src="images/process-img.png" alt=" " class="img-process hidden-xs">
+            <img src="images/process-mobile-img.png" alt=" " class="img-process visible-xs">
 
             <div class="row">
-                <div class="col-1-2">
+                <div class="col-1-2 cre-animate"
+                     data-animation="slide-in-from-left" data-speed="1500" data-delay="300"
+                     data-offset="90%" data-easing="easeOutQuint">
                     <div class="process-icon">
                         <?php include('svg/graphic.svg'); ?>
                     </div>
                 </div>
-                <div class="col-1-2">
+                <div class="col-1-2 cre-animate"
+                     data-animation="slide-in-from-right" data-speed="1500" data-delay="300"
+                     data-offset="90%" data-easing="easeOutQuint">
                     <div class="process-block">
                         <div class="step">
                             Шаг 1
@@ -486,7 +652,9 @@ $image = SI_CurrentPageImage();
                 </div>
             </div>
             <div class="row">
-                <div class="col-1-2">
+                <div class="col-1-2 cre-animate"
+                     data-animation="slide-in-from-left" data-speed="1500" data-delay="600"
+                     data-offset="90%" data-easing="easeOutQuint">
                     <div class="process-block left">
                         <div class="step">
                             Шаг 2
@@ -496,19 +664,25 @@ $image = SI_CurrentPageImage();
                         </div>
                     </div>
                 </div>
-                <div class="col-1-2">
+                <div class="col-1-2 cre-animate"
+                     data-animation="slide-in-from-right" data-speed="1500" data-delay="600"
+                     data-offset="90%" data-easing="easeOutQuint">
                     <div class="process-icon right vector">
                         <?php include('svg/vector.svg'); ?>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-1-2">
+                <div class="col-1-2 cre-animate"
+                     data-animation="slide-in-from-left" data-speed="1500" data-delay="900"
+                     data-offset="90%" data-easing="easeOutQuint">
                     <div class="process-icon dollar">
                         <?php include('svg/dollar.svg'); ?>
                     </div>
                 </div>
-                <div class="col-1-2">
+                <div class="col-1-2 cre-animate"
+                     data-animation="slide-in-from-right" data-speed="1500" data-delay="900"
+                     data-offset="90%" data-easing="easeOutQuint">
                     <div class="process-block step-3">
                         <div class="step">
                             Шаг 3
@@ -520,7 +694,9 @@ $image = SI_CurrentPageImage();
                 </div>
             </div>
             <div class="row">
-                <div class="col-1-2">
+                <div class="col-1-2 cre-animate"
+                     data-animation="slide-in-from-left" data-speed="1500" data-delay="1200"
+                     data-offset="90%" data-easing="easeOutQuint">
                     <div class="process-block step-4">
                         <div class="step">
                             Шаг 4
@@ -530,19 +706,25 @@ $image = SI_CurrentPageImage();
                         </div>
                     </div>
                 </div>
-                <div class="col-1-2">
+                <div class="col-1-2 cre-animate"
+                     data-animation="slide-in-from-right" data-speed="1500" data-delay="1200"
+                     data-offset="90%" data-easing="easeOutQuint">
                     <div class="process-icon page">
                         <?php include('svg/page.svg'); ?>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-1-2">
+                <div class="col-1-2 cre-animate"
+                     data-animation="slide-in-from-left" data-speed="1500" data-delay="1500"
+                     data-offset="90%" data-easing="easeOutQuint">
                     <div class="process-icon display">
                         <?php include('svg/display.svg'); ?>
                     </div>
                 </div>
-                <div class="col-1-2">
+                <div class="col-1-2 cre-animate"
+                     data-animation="slide-in-from-right" data-speed="1500" data-delay="1500"
+                     data-offset="90%" data-easing="easeOutQuint">
                     <div class="process-block step-5">
                         <div class="step">
                             Шаг 5
@@ -554,7 +736,9 @@ $image = SI_CurrentPageImage();
                 </div>
             </div>
             <div class="row">
-                <div class="col-1-2">
+                <div class="col-1-2 cre-animate"
+                     data-animation="slide-in-from-left" data-speed="1500" data-delay="1800"
+                     data-offset="90%" data-easing="easeOutQuint">
                     <div class="process-block step-6">
                         <div class="step">
                             Шаг 6
@@ -564,7 +748,9 @@ $image = SI_CurrentPageImage();
                         </div>
                     </div>
                 </div>
-                <div class="col-1-2">
+                <div class="col-1-2 cre-animate"
+                     data-animation="slide-in-from-right" data-speed="1500" data-delay="1800"
+                     data-offset="90%" data-easing="easeOutQuint">
                     <div class="process-icon show">
                         <?php include('svg/show.svg'); ?>
                     </div>
@@ -577,25 +763,29 @@ $image = SI_CurrentPageImage();
     <section class="section-form" id="form">
         <div class="container align-center">
 
-            <h2>
+            <h2 class="cre-animate"
+                data-animation="slide-in-from-left" data-speed="1500" data-delay="300"
+                data-offset="90%" data-easing="easeOutQuint">
                 У вас есть для нас проект?
             </h2>
 
-            <div class="sub_title">
+            <div class="sub_title cre-animate"
+                 data-animation="slide-in-from-right" data-speed="1500" data-delay="600"
+                 data-offset="90%" data-easing="easeOutQuint">
                 Мы проконсультируем и ответим на любые вопросы. Ответим за 15 минут
             </div>
 
             <form method="post" class="send-form form-first" autocomplete="off">
                 <div class="row">
-                    <div class="col-1-3">
+                    <div class="col-1-3 col-xs-1">
                         <input type="text" name="client_name" class="client-name" placeholder="Ваше имя">
                     </div>
 
-                    <div class="col-1-3">
+                    <div class="col-1-3 col-xs-1">
                         <input type="tel" name="client_phone" class="client-phone" placeholder="Ваш телефон">
                     </div>
 
-                    <div class="col-1-3">
+                    <div class="col-1-3 col-xs-1">
                         <input type="email" name="client_mail" class="client-mail" placeholder="Ваш e-mail">
                     </div>
                 </div>
@@ -622,10 +812,6 @@ $image = SI_CurrentPageImage();
         </div>
     </section>
 
-    <!--===================================================== section map -->
-    <div class="section-map">
-        <div class="map-holder" id="map"></div>
-    </div>
 
 
     <!--===================================================== Footer -->
@@ -686,7 +872,7 @@ $image = SI_CurrentPageImage();
                     Наш менеджер свяжется с вами в течение 15 минут
                 </div>
 
-                <p>
+                <p class="time-text">
                     <strong>Время работы отдела продаж:</strong>
                     пн-пт с 10.00 до 20.00 (по Москве)
                 </p>
@@ -708,18 +894,18 @@ $image = SI_CurrentPageImage();
                     Ответ в течение 15 минут
                 </div>
 
-                <form method="post" class="send-form" autocomplete="off">
+                <form method="post" class="send-form form-first form-modal" autocomplete="off">
                     <div class="row">
-                        <div class="col-1-2">
+                        <div class="col-1-2 col-xs-1">
                             <input type="text" name="client_name" class="client-name" placeholder="Ваше имя">
                         </div>
 
-                        <div class="col-1-2">
+                        <div class="col-1-2 col-xs-1">
                             <input type="tel" name="client_phone" class="client-phone" placeholder="Ваш телефон">
                         </div>
                     </div>
 
-                    <textarea name="client_message" class="client-message" placeholder="Ваш вопрос"></textarea>
+                    <input type="email" name="client_mail" class="client-mail" placeholder="Ваш e-mail">
 
                     <input type="hidden" name="send_type" class="send-type" value="1">
                     <input type="hidden" name="send_extra" class="send-extra" value="1">
@@ -727,19 +913,15 @@ $image = SI_CurrentPageImage();
 					<?php //Поле выше для защиты формы от спам-ботов ?>
 
                     <div class="btn-holder">
-                        <button type="submit" class="btn">Позвоните мне</button>
+                        <button type="submit" class="btn btn-blue">Заказать консультацию <span><?php include('svg/arrow.svg'); ?></span></button>
                         <!--<div class="g-recaptcha" id="g-recaptcha"></div>-->
                     </div>
 
                     <!-- Agreement -->
                     <div class="form-agree align-left">
                         <label class="checkbox-label form-agree-check checked">
-                            <input type="checkbox" checked>
-                            Нажимая кнопку "ПОЗВОНИТЕ МНЕ", я&nbsp;даю своё согласие на&nbsp;обработку
-                            моих персональных данных в&nbsp;соответствии с&nbsp;Федеральным законом
-                            от&nbsp;27.07.2006&nbsp;года №152&#8209;ФЗ "О&nbsp;персональных данных",
-                            на&nbsp;условиях и&nbsp;для&nbsp;целей, определённых
-                            в&nbsp;Согласии на&nbsp;обработку персональных данных.
+<!--                            <input type="checkbox" checked>-->
+                            Нажимая кнопку «Заказать консультацию» я принимаю условия политики конфиденциальности.
                         </label>
                     </div>
                 </form>
@@ -861,7 +1043,6 @@ $image = SI_CurrentPageImage();
 <script src="js/plugins-all.js"></script>
 <script src="js/jquery.easing.js"></script>
 <script src="js/smooth-scroll-1.4.4.min.js"></script>
-<script src="//api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
 
 <!-- Google Recaptcha -->
 <!--<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>-->
@@ -878,7 +1059,6 @@ $image = SI_CurrentPageImage();
 
 <!-- custom scripts -->
 <script src="js/main.js"></script>
-<script src="js/share.js"></script>
 
 <?php include('si-engine.php'); ?>
 

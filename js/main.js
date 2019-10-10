@@ -63,16 +63,16 @@ jQuery(function ($) {
         removeTransform($('.si-floating4'), 'si-floating4');
 
         // Mobile stretch
-        $('html, body').css('min-width', '1280px').addClass('mobile');
-        $('html').css('width', window.innerWidth + 'px');
+        // $('html, body').css('min-width', '1280px').addClass('mobile');
+        // $('html').css('width', window.innerWidth + 'px');
 
-        //$('html').css('width', window.innerWidth + 'px');
-        //$(window).resize(function () {
-        //    $('html').css('width', window.innerWidth + 'px');
-        //});
-        //$(window).bind('scroll', function () {
-        //    $('html').css('width', window.innerWidth + 'px');
-        //});
+        $('html').css('width', window.innerWidth + 'px');
+        $(window).resize(function () {
+           $('html').css('width', window.innerWidth + 'px');
+        });
+        $(window).bind('scroll', function () {
+           $('html').css('width', window.innerWidth + 'px');
+        });
 
         // ===================================================== All sound load
         $.ionSound({
@@ -333,57 +333,5 @@ jQuery(function ($) {
 
     setEqualHeight($('.block'));
 
-    // ===================================================== maps
-    var myMap,
-        centerCoord = [55.753993, 37.622093];
 
-    function mapInit(mapBlock, mapID) {
-        ymaps.ready(function () {
-            mapBlock = new ymaps.Map(mapID, {
-                center: centerCoord,
-                zoom: 16
-            }, {
-                searchControlProvider: 'yandex#search'
-            });
-            mapBlock.behaviors.disable('scrollZoom', 'multiTouch', 'drag');
-
-            pointByPlacemark(mapBlock);
-        });
-    }
-
-    function pointByPlacemark(mapBlock) {
-        var myPlacemark = new ymaps.Placemark(
-            centerCoord, {
-                iconCaption: 'Адрес'
-            }, {
-                preset: 'islands#blueCircleDotIconWithCaption',
-                iconCaptionMaxWidth: '300'
-            }
-        );
-        mapBlock.geoObjects.add(myPlacemark);
-    }
-
-    function pointWithCustomIcon(mapBlock) {
-        var myPlacemark = new ymaps.Placemark(
-            centerCoord, {
-                hintContent: 'Текст подсказки'
-            }, {
-                iconLayout: 'default#image',
-                iconImageHref: template_url + "images/location.png",
-                iconImageSize: [55, 82],
-                iconImageOffset: [-27, -82]
-            }
-        );
-        mapBlock.geoObjects.add(myPlacemark);
-    }
-
-    mapInit(myMap, 'map');
-
-    // ===================================================== loader
-    //setTimeout(function () {
-    //    $('html').removeClass('loading');
-    //    setTimeout(function () {
-    //        $('.loader').hide();
-    //    }, 500);
-    //}, 1000);
 });

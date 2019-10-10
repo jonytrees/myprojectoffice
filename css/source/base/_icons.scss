@@ -69,9 +69,11 @@
 }
 
 .close {
-	width: 24px !important;
-	height: 24px !important;
-	fill: $font-color;
+	width: 23px !important;
+	height: 23px !important;
+	background: url("../svg/close.svg") no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
 
 	a:hover &,
 	a:active & {

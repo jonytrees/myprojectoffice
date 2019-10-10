@@ -3,6 +3,13 @@
 	background: #0F5EBA fixed url("../images/form.png") 50% 50% no-repeat;
 	padding-top: 190px;
 	padding-bottom: 198px;
+	-webkit-background-size: cover;
+	background-size: cover;
+
+	@include mobile{
+		padding-top: 115px;
+		padding-bottom: 105px;
+	}
 
 	h2{
 		color: #fff;
@@ -19,6 +26,11 @@
 		text-align: center;
 		font: normal 40px/50px 'Proba';
 		display: block;
+
+		@include mobile{
+			width: 100%;
+			margin-bottom: 70px;
+		}
 	}
 }
 
@@ -42,6 +54,11 @@
 		padding-left: 47px;
 		color: #34404D !important;
 		font: normal 20px/90px 'Proba';
+
+		@include mobile{
+			width: 67%;
+			margin: 0 auto 20px;
+		}
 	}
 
 	.btn-blue{
@@ -53,6 +70,10 @@
 		color: #fff !important;
 		font: normal 20px/90px 'Proba';
 		background: #2E9AD7 !important;
+
+		@include mobile{
+			width: 67%;
+		}
 
 		&:hover{
 			background: #247aad !important;
@@ -76,5 +97,9 @@
 		font: normal 20px/40px 'Proba';
 		font-style: italic;
 		color: #fff;
+
+		.checkbox-label{
+			padding-left: 0 !important;
+		}
 	}
 }
