@@ -379,59 +379,53 @@ iframe {
   -webkit-appearance: none; }
 
 @font-face {
-  font-family: 'Proba';
-  src: url("../fonts/ProbaPro-Italic.eot");
-  src: local("../fonts/Proba Pro Italic"), local("ProbaPro-Italic"), url("../fonts/ProbaPro-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/ProbaPro-Italic.woff") format("woff"), url("../fonts/ProbaPro-Italic.ttf") format("truetype");
-  font-weight: normal;
-  font-style: italic; }
-@font-face {
-  font-family: 'Proba';
-  src: url("../fonts/ProbaPro-Regular.eot");
-  src: local("../fonts/Proba Pro Regular"), local("ProbaPro-Regular"), url("../fonts/ProbaPro-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/ProbaPro-Regular.woff") format("woff"), url("../fonts/ProbaPro-Regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal; }
-@font-face {
-  font-family: 'Proba';
-  src: url("../fonts/ProbaPro-Bold.eot");
-  src: local("../fonts/Proba Pro Bold"), local("ProbaPro-Bold"), url("../fonts/ProbaPro-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/ProbaPro-Bold.woff") format("woff"), url("../fonts/ProbaPro-Bold.ttf") format("truetype");
-  font-weight: bold;
-  font-style: normal; }
-@font-face {
-  font-family: 'Proba';
-  src: url("../fonts/ProbaPro-LightItalic.eot");
-  src: local("../fonts/Proba Pro Light Italic"), local("ProbaPro-LightItalic"), url("../fonts/ProbaPro-LightItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/ProbaPro-LightItalic.woff") format("woff"), url("../fonts/ProbaPro-LightItalic.ttf") format("truetype");
+  font-family: 'Proxima';
+  src: url("../fonts/ProximaNova-LightIt.eot");
+  src: url("../fonts/ProximaNova-LightIt.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova-LightIt.woff2") format("woff2"), url("../fonts/ProximaNova-LightIt.woff") format("woff"), url("../fonts/ProximaNova-LightIt.ttf") format("truetype"), url("../fonts/ProximaNova-LightIt.svg#ProximaNova-LightIt") format("svg");
   font-weight: 300;
   font-style: italic; }
 @font-face {
-  font-family: 'Proba';
-  src: url("../fonts/ProbaPro-Medium.eot");
-  src: local("../fonts/Proba Pro Medium"), local("ProbaPro-Medium"), url("../fonts/ProbaPro-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/ProbaPro-Medium.woff") format("woff"), url("../fonts/ProbaPro-Medium.ttf") format("truetype");
-  font-weight: 500;
+  font-family: 'Proxima';
+  src: url("../fonts/ProximaNova-Regular.eot");
+  src: url("../fonts/ProximaNova-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova-Regular.woff2") format("woff2"), url("../fonts/ProximaNova-Regular.woff") format("woff"), url("../fonts/ProximaNova-Regular.ttf") format("truetype"), url("../fonts/ProximaNova-Regular.svg#ProximaNova-Regular") format("svg");
+  font-weight: normal;
   font-style: normal; }
 @font-face {
-  font-family: 'Proba';
-  src: url("../fonts/ProbaPro-Light.eot");
-  src: local("../fonts/Proba Pro Light"), local("ProbaPro-Light"), url("../fonts/ProbaPro-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/ProbaPro-Light.woff") format("woff"), url("../fonts/ProbaPro-Light.ttf") format("truetype");
-  font-weight: 300;
+  font-family: 'Proxima';
+  src: url("../fonts/ProximaNova-Bold.eot");
+  src: url("../fonts/ProximaNova-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova-Bold.woff2") format("woff2"), url("../fonts/ProximaNova-Bold.woff") format("woff"), url("../fonts/ProximaNova-Bold.ttf") format("truetype"), url("../fonts/ProximaNova-Bold.svg#ProximaNova-Bold") format("svg");
+  font-weight: bold;
   font-style: normal; }
 @font-face {
-  font-family: 'Proba';
-  src: url("../fonts/ProbaPro-ExtraLight.eot");
-  src: local("../fonts/Proba Pro ExtraLight"), local("ProbaPro-ExtraLight"), url("../fonts/ProbaPro-ExtraLight.eot?#iefix") format("embedded-opentype"), url("../fonts/ProbaPro-ExtraLight.woff") format("woff"), url("../fonts/ProbaPro-ExtraLight.ttf") format("truetype");
-  font-weight: 200;
-  font-style: normal; }
-@font-face {
-  font-family: 'Proba';
-  src: url("../fonts/ProbaPro-BoldItalic.eot");
-  src: local("../fonts/Proba Pro Bold Italic"), local("ProbaPro-BoldItalic"), url("../fonts/ProbaPro-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/ProbaPro-BoldItalic.woff") format("woff"), url("../fonts/ProbaPro-BoldItalic.ttf") format("truetype");
+  font-family: 'Proxima';
+  src: url("../fonts/ProximaNova-BoldIt.eot");
+  src: url("../fonts/ProximaNova-BoldIt.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova-BoldIt.woff2") format("woff2"), url("../fonts/ProximaNova-BoldIt.woff") format("woff"), url("../fonts/ProximaNova-BoldIt.ttf") format("truetype"), url("../fonts/ProximaNova-BoldIt.svg#ProximaNova-BoldIt") format("svg");
   font-weight: bold;
   font-style: italic; }
 @font-face {
-  font-family: 'Proba';
-  src: url("../fonts/ProbaPro-ExtraLightItalic.eot");
-  src: local("../fonts/Proba Pro ExtraLight Italic"), local("ProbaPro-ExtraLightItalic"), url("../fonts/ProbaPro-ExtraLightItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/ProbaPro-ExtraLightItalic.woff") format("woff"), url("../fonts/ProbaPro-ExtraLightItalic.ttf") format("truetype");
-  font-weight: 200;
+  font-family: 'Proxima';
+  src: url("../fonts/ProximaNova-Light.eot");
+  src: url("../fonts/ProximaNova-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova-Light.woff2") format("woff2"), url("../fonts/ProximaNova-Light.woff") format("woff"), url("../fonts/ProximaNova-Light.ttf") format("truetype"), url("../fonts/ProximaNova-Light.svg#ProximaNova-Light") format("svg");
+  font-weight: 300;
+  font-style: normal; }
+@font-face {
+  font-family: 'Proxima';
+  src: url("../fonts/ProximaNova-Extrabld.eot");
+  src: url("../fonts/ProximaNova-Extrabld.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova-Extrabld.woff2") format("woff2"), url("../fonts/ProximaNova-Extrabld.woff") format("woff"), url("../fonts/ProximaNova-Extrabld.ttf") format("truetype"), url("../fonts/ProximaNova-Extrabld.svg#ProximaNova-Extrabld") format("svg");
+  font-weight: 800;
+  font-style: normal; }
+@font-face {
+  font-family: 'Proxima';
+  src: url("../fonts/ProximaNova-RegularIt.eot");
+  src: url("../fonts/ProximaNova-RegularIt.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova-RegularIt.woff2") format("woff2"), url("../fonts/ProximaNova-RegularIt.woff") format("woff"), url("../fonts/ProximaNova-RegularIt.ttf") format("truetype"), url("../fonts/ProximaNova-RegularIt.svg#ProximaNova-RegularIt") format("svg");
+  font-weight: normal;
   font-style: italic; }
+@font-face {
+  font-family: 'Proxima';
+  src: url("../fonts/ProximaNova-Black.eot");
+  src: url("../fonts/ProximaNova-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova-Black.woff2") format("woff2"), url("../fonts/ProximaNova-Black.woff") format("woff"), url("../fonts/ProximaNova-Black.ttf") format("truetype"), url("../fonts/ProximaNova-Black.svg#ProximaNova-Black") format("svg");
+  font-weight: 900;
+  font-style: normal; }
 @media all and (max-width: 750px) {
   .hidden-xs {
     display: none !important; } }
@@ -1046,7 +1040,7 @@ iframe {
     transform: translateX(-1px) rotate(0deg); } }
 .buzz-out, .hover-buzz-out:hover [class*="-image"] .icon, .hover-buzz-out:hover [class*="-image"] .si-close,
 .hover-buzz-out:hover [class*="-image"] .svg-icon:not([class*="border-"]),
-.hover-buzz-out:hover [class*="-image"] img {
+.hover-buzz-out:hover [class*="-image"] img, .si-phone .phone-link:hover:after, .section-practice .practice-block:hover {
   will-change: transform;
   transform: translate3d(0, 0, 0);
   -webkit-animation: buzz-out 1 linear 1s;
@@ -1842,7 +1836,7 @@ iframe {
 html {
   color: #000;
   background: #fff;
-  font: 16px/24px 'Proba';
+  font: 16px/24px 'Proxima';
   width: 100%;
   min-width: 1248px;
   max-width: 100%;
@@ -2412,7 +2406,7 @@ textarea {
   display: none; }
 
 .jq-selectbox__dropdown {
-  font: 14px/25px 'Proba' !important;
+  font: 14px/25px 'Proxima' !important;
   color: #fff;
   width: 100%;
   height: 30px !important;
@@ -2588,23 +2582,70 @@ textarea {
   z-index: 50;
   height: 80px;
   background-color: #fff; }
+  .layout-header .position {
+    position: relative; }
+  .layout-header .lang-block {
+    width: 300px;
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    background-color: #E7EEF6;
+    position: absolute;
+    left: 100px;
+    bottom: -188px;
+    display: block;
+    opacity: 0;
+    text-align: center;
+    z-index: 200; }
+    .layout-header .lang-block.visible {
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      -ms-transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+      opacity: 1;
+      left: 0; }
+    .layout-header .lang-block .close, .layout-header .lang-block .si-close {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      cursor: pointer; }
+    .layout-header .lang-block .text {
+      font: normal 25px/25px 'Proxima';
+      color: #34404D;
+      display: block; }
+      .layout-header .lang-block .text span {
+        display: block;
+        font: normal 20px/20px 'Proxima'; }
+    .layout-header .lang-block .btn-blue {
+      display: inline-block;
+      vertical-align: top;
+      margin-right: 10px;
+      margin-left: 10px;
+      margin-top: 20px;
+      width: 90px;
+      height: 40px;
+      text-align: center;
+      color: #fff !important;
+      font: 500 14px/40px 'Proxima';
+      background: #0F5EBA; }
 
 .logo {
   width: 134px;
   display: inline-block;
   margin-right: 170px;
   vertical-align: top;
-  margin-top: 12px; }
+  margin-top: 10px; }
   .logo img {
     display: block; }
 
 .jq-selectbox {
   display: inline-block;
-  width: 50px !important;
+  width: 80px !important;
   height: 30px;
   background: #0F5EBA !important;
   color: #fff;
-  font: 14px/30px 'Proba' !important;
+  font: 14px/30px 'Proxima' !important;
   vertical-align: top;
   margin-top: 24px;
   margin-left: 4px; }
@@ -2632,13 +2673,19 @@ textarea {
     width: 190px;
     position: relative;
     text-align: right;
-    font: bold 20px/20px 'Proba';
+    font: bold 20px/20px 'Proxima';
     color: #34404D;
     vertical-align: top;
     margin-top: 7px; }
+    .si-phone .phone-link:hover {
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      -ms-transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out; }
     .si-phone .phone-link span {
       color: #788AA1;
-      font: 12px/12px 'Proba';
+      font: normal 12px/12px 'Proxima';
       vertical-align: top;
       margin-right: 9px; }
     .si-phone .phone-link:after {
@@ -2660,12 +2707,12 @@ textarea {
     display: inline-block;
     text-align: center;
     color: #fff !important;
-    font: 500 14px/40px 'Proba';
+    font: 500 14px/40px 'Proxima';
     margin-left: 22px;
     background: #0F5EBA; }
 
 .nav {
-  width: 355px;
+  width: 320px;
   height: 72px;
   display: inline-block;
   vertical-align: top;
@@ -2684,7 +2731,7 @@ textarea {
     display: inline-block; }
   .nav a, .nav .underline, .nav .dashed, .nav .dotted {
     color: #788A !important;
-    font: 14px/72px 'Proba'; }
+    font: 14px/72px 'Proxima'; }
     .nav a:hover, .nav .underline:hover, .nav .dashed:hover, .nav .dotted:hover {
       text-decoration: underline; }
 
@@ -2705,7 +2752,7 @@ textarea {
     width: 260px;
     display: block;
     color: #788AA1;
-    font: normal 16px/25px 'Proba';
+    font: normal 16px/25px 'Proxima';
     margin-top: 5px; }
     @media all and (max-width: 750px) {
       .layout-footer .logo-text {
@@ -2724,7 +2771,7 @@ textarea {
       width: 190px;
       position: relative;
       text-align: right;
-      font: bold 20px/20px 'Proba';
+      font: bold 20px/20px 'Proxima';
       color: #34404D;
       vertical-align: top;
       margin-top: 10px; }
@@ -2732,15 +2779,15 @@ textarea {
         .layout-footer .si-phone .phone-link {
           width: 255px;
           margin-bottom: 15px;
-          font: bold 30px/30px 'Proba'; } }
+          font: bold 30px/30px 'Proxima'; } }
       .layout-footer .si-phone .phone-link span {
         color: #788AA1;
-        font: 12px/12px 'Proba';
+        font: normal 12px/12px 'Proxima';
         vertical-align: top;
         margin-right: 9px; }
         @media all and (max-width: 750px) {
           .layout-footer .si-phone .phone-link span {
-            font: 16px/16px 'Proba'; } }
+            font: 16px/16px 'Proxima'; } }
       .layout-footer .si-phone .phone-link:after {
         content: '';
         width: 30px;
@@ -2760,7 +2807,7 @@ textarea {
       display: inline-block;
       text-align: center;
       color: #fff !important;
-      font: 500 14px/40px 'Proba';
+      font: 500 14px/40px 'Proxima';
       margin-left: 26px;
       background: #0F5EBA; }
   .layout-footer .hello {
@@ -2769,7 +2816,7 @@ textarea {
     display: block;
     text-align: right;
     color: #788AA1;
-    font: normal 16px/25px 'Proba'; }
+    font: normal 16px/25px 'Proxima'; }
     @media all and (max-width: 750px) {
       .layout-footer .hello {
         margin-top: 20px; } }
@@ -2778,15 +2825,6 @@ textarea {
       color: #0F5EBA; }
       .layout-footer .hello .link:hover {
         text-decoration: none; }
-
-.company-address-block dl {
-  margin-bottom: 0px; }
-
-.company-info-block p, .company-info-block ul.marked {
-  margin-bottom: 0px; }
-
-.copyright {
-  margin-top: 0px; }
 
 html.si-lock {
   overflow: hidden !important; }
@@ -2878,13 +2916,13 @@ html.si-lock2 {
 .modal-form-title, .si-success-modal-title {
   margin-bottom: 18px;
   text-align: center;
-  font: normal 50px/50px 'Proba';
+  font: normal 50px/50px 'Proxima';
   display: block; }
 
 .modal-time, .success-time {
   margin-bottom: 50px;
   text-align: center;
-  font: normal 30px/30px 'Proba';
+  font: normal 30px/30px 'Proxima';
   display: block; }
 
 .modal-text-block {
@@ -2894,7 +2932,7 @@ html.si-lock2 {
   display: block; }
 
 .time-text {
-  font: normal 30px/45px 'Proba';
+  font: normal 30px/45px 'Proxima';
   color: #34404D; }
 
 .si-page-message-overlay {
@@ -2981,7 +3019,7 @@ h1, h2 {
   margin-left: -5px; }
 
 .section-heading {
-  background: url("../images/header-bg.jpg") no-repeat 50% 50% transparent;
+  background: fixed url("../images/header-bg.png") no-repeat 50% 0% transparent;
   -webkit-background-size: cover;
   background-size: cover;
   padding: 238px 0 348px;
@@ -2989,19 +3027,19 @@ h1, h2 {
   z-index: 10; }
   .section-heading .small-title {
     color: #788AA1;
-    font: 30px/35px 'Proba';
+    font: 30px/35px 'Proxima';
     display: block;
     margin-bottom: 28px; }
   .section-heading h1 {
     width: 560px;
     display: block;
     color: #34404D;
-    font: 110px/99px 'Proba';
+    font: 110px/99px 'Proxima';
     margin-bottom: 62px; }
   .section-heading .sub-title {
-    width: 364px;
+    width: 395px;
     color: #34404D;
-    font: 25px/40px 'Proba';
+    font: 25px/40px 'Proxima';
     margin-left: 106px;
     margin-bottom: 107px;
     position: relative; }
@@ -3025,7 +3063,7 @@ h1, h2 {
       .section-heading .last-wrapper .last-block:after {
         content: '+';
         color: #788AA1;
-        font: 300 69px/36px 'Proba';
+        font: 300 69px/36px 'Proxima';
         width: 20px;
         height: 20px;
         position: absolute;
@@ -3033,18 +3071,18 @@ h1, h2 {
         left: -50px; }
       .section-heading .last-wrapper .last-block .title {
         color: #0F5EBA;
-        font: 300 144px/130px 'Proba';
+        font: 300 144px/130px 'Proxima';
         display: block;
         margin-bottom: 10px; }
       .section-heading .last-wrapper .last-block span {
-        font: 500 36px/36px 'Proba';
+        font: 500 36px/36px 'Proxima';
         color: #0F5EBA;
         text-transform: uppercase;
         display: block;
         margin-bottom: 11px; }
       .section-heading .last-wrapper .last-block .text {
         color: #34404D;
-        font: 300 24px/24px 'Proba';
+        font: 300 24px/24px 'Proxima';
         text-transform: uppercase; }
   .section-heading .big-container {
     height: 50px;
@@ -3071,7 +3109,7 @@ h1, h2 {
       .section-heading .big-container .more-block .more-text {
         width: 100px;
         color: #ffffff;
-        font: 500 30px/30px 'Proba';
+        font: 500 30px/30px 'Proxima';
         position: relative; }
         .section-heading .big-container .more-block .more-text:after {
           content: '';
@@ -3104,7 +3142,7 @@ h1, h2 {
       .section-heading .big-container .department-wrapper .title {
         width: 450px;
         color: #34404D;
-        font: normal 50px/50px 'Proba';
+        font: normal 50px/50px 'Proxima';
         display: block;
         margin-bottom: 33px; }
         @media all and (max-width: 750px) {
@@ -3113,7 +3151,7 @@ h1, h2 {
       .section-heading .big-container .department-wrapper .text {
         width: 800px;
         display: block;
-        font: normal 20px/40px 'Proba';
+        font: normal 20px/40px 'Proxima';
         color: #788AA1;
         position: relative; }
         @media all and (max-width: 750px) {
@@ -3148,7 +3186,7 @@ h1, h2 {
     .section-practice .block-title h1 {
       display: block;
       color: #34404D;
-      font: normal 90px/100px 'Proba';
+      font: normal 90px/100px 'Proxima';
       margin-bottom: 37px; }
     .section-practice .block-title .sub_h1 {
       width: 600px;
@@ -3176,7 +3214,7 @@ h1, h2 {
         width: 450px;
         margin-left: 31px;
         vertical-align: top;
-        font: normal 40px/50px 'Proba';
+        font: normal 40px/50px 'Proxima';
         color: #34404D;
         margin-top: 5px; }
         .section-practice .block-title .sub_h1 .text span {
@@ -3188,7 +3226,7 @@ h1, h2 {
     margin-right: 16px;
     margin-top: 57px;
     color: #788AA1;
-    font: normal 20px/40px 'Proba'; }
+    font: normal 20px/40px 'Proxima'; }
     @media all and (max-width: 750px) {
       .section-practice .block-text {
         width: 100%;
@@ -3253,11 +3291,11 @@ h1, h2 {
     .section-practice .practice-block .practice-title {
       color: #34404D;
       display: block;
-      font: 500 25px/35px 'Proba';
+      font: 500 25px/35px 'Proxima';
       margin-bottom: 20px; }
     .section-practice .practice-block .practice-text {
       color: #788AA1;
-      font: normal 18px/30px 'Proba'; }
+      font: normal 18px/30px 'Proxima'; }
 
 .section-task {
   padding-top: 215px;
@@ -3294,7 +3332,7 @@ h1, h2 {
         right: 160px; } }
   .section-task h2 {
     width: 530px;
-    font: normal 90px/100px 'Proba';
+    font: normal 90px/100px 'Proxima';
     display: block;
     margin-bottom: 75px;
     color: #34404D; }
@@ -3306,7 +3344,7 @@ h1, h2 {
     display: block;
     margin: 0 auto 137px;
     color: #34404D;
-    font: normal 40px/50px 'Proba'; }
+    font: normal 40px/50px 'Proxima'; }
     @media all and (max-width: 750px) {
       .section-task .sub_title {
         width: 100%;
@@ -3378,7 +3416,7 @@ h1, h2 {
           margin-top: 0; } }
     .section-task .task-text .task-title {
       color: #34404D;
-      font: 500 30px/45px 'Proba';
+      font: 500 30px/45px 'Proxima';
       margin-bottom: 40px; }
     .section-task .task-text .task-list {
       margin: 0;
@@ -3386,7 +3424,7 @@ h1, h2 {
       width: 480px; }
       .section-task .task-text .task-list li {
         color: #788AA1;
-        font: normal 20px/30px 'Proba';
+        font: normal 20px/30px 'Proxima';
         margin-bottom: 10px;
         position: relative;
         list-style-type: none; }
@@ -3412,7 +3450,7 @@ h1, h2 {
       padding-bottom: 47px; } }
   .section-how h2 {
     color: #fff;
-    font: normal 90px/96px 'Proba';
+    font: normal 90px/96px 'Proxima';
     display: block;
     margin-bottom: 101px;
     margin-left: 104px; }
@@ -3469,7 +3507,7 @@ h1, h2 {
         right: 0;
         margin: auto;
         color: #fff;
-        font: normal 25px/25px 'Proba'; }
+        font: normal 25px/25px 'Proxima'; }
     .section-how .how-wrapper .how-text {
       width: 87%;
       margin-top: -12px;
@@ -3477,7 +3515,7 @@ h1, h2 {
       vertical-align: top;
       margin-left: 27px;
       color: #FFFFFF;
-      font: normal 25px/40px 'Proba'; }
+      font: normal 25px/40px 'Proxima'; }
       @media all and (max-width: 750px) {
         .section-how .how-wrapper .how-text {
           width: 85%;
@@ -3520,7 +3558,7 @@ h1, h2 {
       padding-bottom: 48px; } }
   .section-process h2 {
     color: #34404D;
-    font: normal 90px/100px 'Proba';
+    font: normal 90px/100px 'Proxima';
     display: block;
     margin-bottom: 218px; }
     @media all and (max-width: 750px) {
@@ -3539,7 +3577,105 @@ h1, h2 {
     @media all and (max-width: 750px) {
       .section-process .img-process {
         width: 92px;
-        height: 1552px; } }
+        height: 1552px;
+        top: 370px; } }
+    .section-process .img-process .wrapper {
+      width: 238px;
+      height: 238px;
+      position: relative; }
+      .section-process .img-process .wrapper.i-1 {
+        margin-top: -25px; }
+      .section-process .img-process .wrapper.i-2 {
+        margin-top: -25px; }
+      .section-process .img-process .wrapper.i-3 {
+        margin-top: -25px; }
+      .section-process .img-process .wrapper.i-4 {
+        margin-top: -25px; }
+      .section-process .img-process .wrapper.i-5 {
+        margin-top: -25px; }
+    .section-process .img-process .between-block {
+      width: 108px;
+      height: 131px;
+      display: block;
+      margin: -15px auto 0;
+      position: relative;
+      padding-top: 27px; }
+      .section-process .img-process .between-block .cube-grey {
+        background: #EBEBEB;
+        width: 108px;
+        height: 131px;
+        opacity: 0;
+        position: absolute !important;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        z-index: -1; }
+        .section-process .img-process .between-block .cube-grey.opacity {
+          -webkit-transition: all 0.3s ease-in-out;
+          -moz-transition: all 0.3s ease-in-out;
+          -ms-transition: all 0.3s ease-in-out;
+          -o-transition: all 0.3s ease-in-out;
+          transition: all 0.3s ease-in-out;
+          opacity: 1; }
+      .section-process .img-process .between-block .cube-circle {
+        display: none;
+        background: #0f92ff;
+        border-radius: 100%;
+        margin: 0 auto 12px; }
+        .section-process .img-process .between-block .cube-circle.i-1 {
+          width: 10px;
+          height: 10px; }
+        .section-process .img-process .between-block .cube-circle.i-2 {
+          width: 15px;
+          height: 15px; }
+        .section-process .img-process .between-block .cube-circle.i-3 {
+          width: 20px;
+          height: 20px; }
+    .section-process .img-process .circle-grey {
+      width: 238px;
+      height: 238px;
+      position: absolute !important;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      margin: auto;
+      display: block;
+      opacity: 0;
+      background: #EBEBEB;
+      border-radius: 100%; }
+      .section-process .img-process .circle-grey.opacity {
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        opacity: 1; }
+    .section-process .img-process .circle-blue {
+      width: 138px;
+      height: 138px;
+      background: #0F5EBA;
+      position: absolute !important;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      margin: auto;
+      display: none;
+      border-radius: 100%; }
+      .section-process .img-process .circle-blue .circle-white {
+        position: absolute !important;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        width: 22px;
+        height: 22px;
+        background: #FFFFFF;
+        border-radius: 100%; }
   .section-process .process-icon {
     width: 54px;
     height: 82px;
@@ -3554,27 +3690,28 @@ h1, h2 {
     .section-process .process-icon.right {
       margin-left: 274px; }
     .section-process .process-icon.vector {
-      width: 81px;
+      width: 97px;
       height: 81px;
       margin-top: 25px;
-      margin-left: 251px; }
-      .section-process .process-icon.vector svg {
-        width: 81px;
-        height: 81px; }
+      margin-left: 251px;
+      background: url("../svg/2.svg") no-repeat;
+      background-size: cover; }
       @media all and (max-width: 750px) {
         .section-process .process-icon.vector {
-          margin: 70px auto; } }
+          margin: 110px auto 0; } }
     .section-process .process-icon.dollar {
-      width: 92px;
-      height: 49px;
-      margin-top: 55px;
-      margin-left: 248px; }
+      width: 81px;
+      height: 78px;
+      margin-top: 35px;
+      margin-left: 248px;
+      background: url("../svg/3.svg") no-repeat;
+      background-size: cover; }
       .section-process .process-icon.dollar svg {
         width: 92px;
         height: 49px; }
       @media all and (max-width: 750px) {
         .section-process .process-icon.dollar {
-          margin: 40px auto 0; } }
+          margin: 100px auto 0; } }
     .section-process .process-icon.page {
       width: 70px;
       height: 100px;
@@ -3587,21 +3724,25 @@ h1, h2 {
         .section-process .process-icon.page {
           margin: 0 auto; } }
     .section-process .process-icon.display {
-      margin-top: 36px;
-      width: 114px;
-      height: 80px;
-      margin-left: 240px; }
+      margin-top: 0;
+      width: 80px;
+      height: 105px;
+      margin-left: 240px;
+      background: url("../svg/5.svg") no-repeat;
+      background-size: cover; }
       .section-process .process-icon.display svg {
         width: 114px;
         height: 80px; }
       @media all and (max-width: 750px) {
         .section-process .process-icon.display {
-          margin: 0 auto; } }
+          margin: 45px auto 0; } }
     .section-process .process-icon.show {
-      width: 91px;
-      height: 75px;
-      margin-top: 17px;
-      margin-left: 247px; }
+      width: 85px;
+      height: 85px;
+      margin-top: -5px;
+      margin-left: 247px;
+      background: url("../svg/6.svg") no-repeat;
+      background-size: cover; }
       .section-process .process-icon.show svg {
         width: 91px;
         height: 75px; }
@@ -3615,16 +3756,16 @@ h1, h2 {
     @media all and (max-width: 750px) {
       .section-process .process-block {
         float: right;
-        margin-bottom: 85px; } }
+        margin-bottom: 59px; } }
     .section-process .process-block .step {
       color: #0F5EBA;
       display: block;
-      font: 500 15px/15px 'Proba';
+      font: 500 15px/15px 'Proxima';
       margin-bottom: 32px; }
     .section-process .process-block .text {
       width: 420px;
       color: #788AA1;
-      font: normal 20px/40px 'Proba'; }
+      font: normal 20px/40px 'Proxima'; }
       @media all and (max-width: 750px) {
         .section-process .process-block .text {
           width: 220px; } }
@@ -3634,7 +3775,7 @@ h1, h2 {
       @media all and (max-width: 750px) {
         .section-process .process-block.left {
           float: none;
-          margin-bottom: 50px; } }
+          margin-bottom: 0; } }
     .section-process .process-block.step-3 {
       margin-left: 202px;
       margin-bottom: 189px; }
@@ -3653,7 +3794,7 @@ h1, h2 {
       @media all and (max-width: 750px) {
         .section-process .process-block.step-4 {
           float: none;
-          margin-bottom: 50px; } }
+          margin-bottom: 0; } }
     .section-process .process-block.step-5 {
       margin-left: 203px;
       margin-bottom: 192px; }
@@ -3666,15 +3807,6 @@ h1, h2 {
       @media all and (max-width: 750px) {
         .section-process .process-block.step-6 {
           float: none; } }
-
-.section-x {
-  background: url("../images/") no-repeat 50% 50% transparent;
-  padding: 0px 0 0px; }
-  .section-x h2 {
-    margin-bottom: 0px; }
-
-.map-holder {
-  height: 0px; }
 
 .section-form {
   background: #0F5EBA fixed url("../images/form.png") 50% 50% no-repeat;
@@ -3689,7 +3821,7 @@ h1, h2 {
   .section-form h2 {
     color: #fff;
     text-align: center;
-    font: normal 90px/96px 'Proba';
+    font: normal 90px/96px 'Proxima';
     display: block;
     margin-bottom: 20px; }
   .section-form .sub_title {
@@ -3697,7 +3829,7 @@ h1, h2 {
     margin: 0 auto 50px;
     color: #fff;
     text-align: center;
-    font: normal 40px/50px 'Proba';
+    font: normal 40px/50px 'Proxima';
     display: block; }
     @media all and (max-width: 750px) {
       .section-form .sub_title {
@@ -3705,7 +3837,7 @@ h1, h2 {
         margin-bottom: 70px; } }
 
 .form-agree-check {
-  font: 12px/15px "PT Sans";
+  font: 12px/15px "Proxima";
   margin-top: 30px; }
   .form-agree-check .jq-checkbox, .form-agree-check .jq-radio {
     top: 1px; }
@@ -3716,7 +3848,7 @@ h1, h2 {
   background-color: #fff !important;
   padding-left: 47px;
   color: #34404D !important;
-  font: normal 20px/90px 'Proba'; }
+  font: normal 20px/90px 'Proxima'; }
   @media all and (max-width: 750px) {
     .form-first input {
       width: 67%;
@@ -3728,7 +3860,7 @@ h1, h2 {
   margin: 30px auto 30px;
   text-align: center;
   color: #fff !important;
-  font: normal 20px/90px 'Proba';
+  font: normal 20px/90px 'Proxima';
   background: #2E9AD7 !important; }
   @media all and (max-width: 750px) {
     .form-first .btn-blue {
@@ -3749,7 +3881,7 @@ h1, h2 {
     vertical-align: top; }
 .form-first .form-agree-check {
   text-align: center;
-  font: normal 20px/40px 'Proba';
+  font: normal 20px/40px 'Proxima';
   font-style: italic;
   color: #fff; }
   .form-first .form-agree-check .checkbox-label, .form-first .form-agree-check .radio-label {

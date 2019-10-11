@@ -10,7 +10,7 @@ h1, h2{
 
 //==================== section heading
 .section-heading {
-	background: url('../images/header-bg.jpg') no-repeat 50% 50% transparent;
+	background: fixed url('../images/header-bg.png') no-repeat 50% 0% transparent;
 	-webkit-background-size: cover;
 	background-size: cover;
 	padding: 238px 0 348px;
@@ -23,7 +23,7 @@ h1, h2{
 
 	.small-title{
 		color: #788AA1;
-		font: 30px/35px 'Proba';
+		font: 30px/35px 'Proxima';
 		display: block;
 		margin-bottom: 28px;
 	}
@@ -32,14 +32,14 @@ h1, h2{
 		width: 560px;
 		display: block;
 		color: #34404D;
-		font: 110px/99px 'Proba';
+		font: 110px/99px 'Proxima';
 		margin-bottom: 62px;
 	}
 
 	.sub-title{
-		width: 364px;
+		width: 395px;
 		color: #34404D;
-		font: 25px/40px 'Proba';
+		font: 25px/40px 'Proxima';
 		margin-left: 106px;
 		margin-bottom: 107px;
 		position: relative;
@@ -69,7 +69,7 @@ h1, h2{
 			&:after{
 				content: '+';
 				color: #788AA1;
-				font: 300 69px/36px 'Proba';
+				font: 300 69px/36px 'Proxima';
 				width: 20px;
 				height: 20px;
 				position: absolute;
@@ -79,13 +79,13 @@ h1, h2{
 
 			.title{
 				color: #0F5EBA;
-				font: 300 144px/130px 'Proba';
+				font: 300 144px/130px 'Proxima';
 				display: block;
 				margin-bottom: 10px;
 			}
 
 			span{
-				font: 500 36px/36px 'Proba';
+				font: 500 36px/36px 'Proxima';
 				color: #0F5EBA;
 				text-transform: uppercase;
 				display: block;
@@ -94,7 +94,7 @@ h1, h2{
 
 			.text{
 				color: #34404D;
-				font: 300 24px/24px 'Proba';
+				font: 300 24px/24px 'Proxima';
 				text-transform: uppercase;
 			}
 		}
@@ -126,7 +126,7 @@ h1, h2{
 			.more-text{
 				width: 100px;
 				color: #ffffff;
-				font: 500 30px/30px 'Proba';
+				font: 500 30px/30px 'Proxima';
 				position: relative;
 
 				&:after{
@@ -167,7 +167,7 @@ h1, h2{
 			.title{
 				width: 450px;
 				color: #34404D;
-				font: normal 50px/50px 'Proba';
+				font: normal 50px/50px 'Proxima';
 				display: block;
 				margin-bottom: 33px;
 
@@ -179,7 +179,7 @@ h1, h2{
 			.text{
 				width: 800px;
 				display: block;
-				font: normal 20px/40px 'Proba';
+				font: normal 20px/40px 'Proxima';
 				color: #788AA1;
 				position: relative;
 
@@ -226,7 +226,7 @@ h1, h2{
 		h1{
 			display: block;
 			color: #34404D;
-			font: normal 90px/100px 'Proba';
+			font: normal 90px/100px 'Proxima';
 			margin-bottom: 37px;
 		}
 
@@ -257,7 +257,7 @@ h1, h2{
 				width: 450px;
 				margin-left: 31px;
 				vertical-align: top;
-				font: normal 40px/50px 'Proba';
+				font: normal 40px/50px 'Proxima';
 				color: #34404D;
 				margin-top: 5px;
 
@@ -275,7 +275,7 @@ h1, h2{
 		margin-right: 16px;
 		margin-top: 57px;
 		color: #788AA1;
-		font: normal 20px/40px 'Proba';
+		font: normal 20px/40px 'Proxima';
 
 		@include mobile{
 			width: 100%;
@@ -294,6 +294,10 @@ h1, h2{
 		padding-left: 50px;
 		padding-right: 45px;
 		margin-bottom: 28px;
+
+		&:hover{
+			@extend .buzz-out;
+		}
 
 		@include mobile{
 			width: 100%;
@@ -374,13 +378,13 @@ h1, h2{
 		.practice-title{
 			color: #34404D;
 			display: block;
-			font: 500 25px/35px 'Proba';
+			font: 500 25px/35px 'Proxima';
 			margin-bottom: 20px;
 		}
 
 		.practice-text{
 			color: #788AA1;
-			font: normal 18px/30px 'Proba';
+			font: normal 18px/30px 'Proxima';
 		}
 	}
 }
@@ -434,7 +438,7 @@ h1, h2{
 
 	h2{
 		width: 530px;
-		font: normal 90px/100px 'Proba';
+		font: normal 90px/100px 'Proxima';
 		display: block;
 		margin-bottom: 75px;
 		color: #34404D;
@@ -449,7 +453,7 @@ h1, h2{
 		display: block;
 		margin: 0 auto 137px;
 		color: #34404D;
-		font: normal 40px/50px 'Proba';
+		font: normal 40px/50px 'Proxima';
 
 		@include mobile{
 			width: 100%;
@@ -554,7 +558,7 @@ h1, h2{
 
 		.task-title{
 			color: #34404D;
-			font: 500 30px/45px 'Proba';
+			font: 500 30px/45px 'Proxima';
 			margin-bottom: 40px;
 		}
 
@@ -565,7 +569,7 @@ h1, h2{
 
 			li{
 				color: #788AA1;
-				font: normal 20px/30px 'Proba';
+				font: normal 20px/30px 'Proxima';
 				margin-bottom: 10px;
 				position: relative;
 				list-style-type: none;
@@ -600,7 +604,7 @@ h1, h2{
 
 	h2{
 		color: #fff;
-		font: normal 90px/96px 'Proba';
+		font: normal 90px/96px 'Proxima';
 		display: block;
 		margin-bottom: 101px;
 		margin-left: 104px;
@@ -667,7 +671,7 @@ h1, h2{
 				text-align: center;
 				@include abs-center;
 				color: #fff;
-				font: normal 25px/25px 'Proba';
+				font: normal 25px/25px 'Proxima';
 			}
 		}
 
@@ -678,7 +682,7 @@ h1, h2{
 			vertical-align: top;
 			margin-left: 27px;
 			color: #FFFFFF;
-			font: normal 25px/40px 'Proba';
+			font: normal 25px/40px 'Proxima';
 
 			@include mobile{
 				width: 85%;
@@ -737,7 +741,7 @@ h1, h2{
 
 	h2{
 		color: #34404D;
-		font: normal 90px/100px 'Proba';
+		font: normal 90px/100px 'Proxima';
 		display: block;
 		margin-bottom: 218px;
 
@@ -745,6 +749,18 @@ h1, h2{
 			margin-bottom: 140px;
 		}
 	}
+
+	//.img-process{
+	//	@include abs-center;
+	//	top: 180px;
+	//	width: 238px;
+	//	height: 1930px;
+	//
+	//	@include mobile{
+	//		width: 92px;
+	//		height: 1552px;
+	//	}
+	//}
 
 	.img-process{
 		@include abs-center;
@@ -755,7 +771,113 @@ h1, h2{
 		@include mobile{
 			width: 92px;
 			height: 1552px;
+			top: 370px;
 		}
+
+		.wrapper{
+			width: 238px;
+			height: 238px;
+			position: relative;
+
+			&.i-1{
+				margin-top: -25px;
+			}
+
+			&.i-2{
+				margin-top: -25px;
+			}
+
+			&.i-3{
+				margin-top: -25px;
+			}
+
+			&.i-4{
+				margin-top: -25px;
+			}
+
+			&.i-5{
+				margin-top: -25px;
+			}
+		}
+
+		.between-block{
+			width: 108px;
+			height: 131px;
+			display: block;
+			margin: -15px auto 0;
+			position: relative;
+			padding-top: 27px;
+
+			.cube-grey{
+				background: #EBEBEB;
+				width: 108px;
+				height: 131px;
+				opacity: 0;
+				@include abs-center;
+				z-index: -1;
+
+				&.opacity{
+					@include general-transition;
+					opacity: 1;
+				}
+			}
+
+			.cube-circle{
+				display: none;
+				background: #0f92ff;
+				border-radius: 100%;
+				margin: 0 auto 12px;
+
+				&.i-1{
+					width: 10px;
+					height: 10px;
+				}
+
+				&.i-2{
+					width: 15px;
+					height: 15px;
+				}
+
+				&.i-3{
+					width: 20px;
+					height: 20px;
+				}
+			}
+		}
+
+		.circle-grey{
+			width: 238px;
+			height: 238px;
+			@include abs-center;
+			display: block;
+			opacity: 0;
+			background: #EBEBEB;
+			border-radius: 100%;
+
+			&.opacity{
+				@include general-transition;
+				opacity: 1;
+			}
+		}
+
+		.circle-blue{
+			width: 138px;
+			height: 138px;
+			background: #0F5EBA;
+			@include abs-center;
+			display: none;
+			border-radius: 100%;
+
+
+			.circle-white{
+				@include abs-center;
+				width: 22px;
+				height: 22px;
+				background: #FFFFFF;
+				border-radius: 100%;
+			}
+		}
+
 	}
 
 	.process-icon{
@@ -778,26 +900,30 @@ h1, h2{
 		}
 
 		&.vector{
-			width: 81px;
+			width: 97px;
 			height: 81px;
 			margin-top: 25px;
 			margin-left: 251px;
+			background: url("../svg/2.svg") no-repeat;
+			background-size: cover;
 
-			svg{
-				width: 81px;
-				height: 81px;
-			}
+			//svg{
+			//	width: 81px;
+			//	height: 81px;
+			//}
 
 			@include mobile{
-				margin: 70px auto ;
+				margin: 110px auto 0;
 			}
 		}
 
 		&.dollar{
-			width: 92px;
-			height: 49px;
-			margin-top: 55px;
+			width: 81px;
+			height: 78px;
+			margin-top: 35px;
 			margin-left: 248px;
+			background: url("../svg/3.svg") no-repeat;
+			background-size: cover;
 
 			svg{
 				width: 92px;
@@ -805,7 +931,7 @@ h1, h2{
 			}
 
 			@include mobile{
-				margin: 40px auto 0;
+				margin: 100px auto 0;
 			}
 		}
 
@@ -826,10 +952,12 @@ h1, h2{
 		}
 
 		&.display{
-			margin-top: 36px;
-			width: 114px;
-			height: 80px;
+			margin-top: 0;
+			width: 80px;
+			height: 105px;
 			margin-left: 240px;
+			background: url("../svg/5.svg") no-repeat;
+			background-size: cover;
 
 			svg{
 				width: 114px;
@@ -837,15 +965,17 @@ h1, h2{
 			}
 
 			@include mobile{
-				margin: 0 auto;
+				margin: 45px auto 0;
 			}
 		}
 
 		&.show{
-			width: 91px;
-			height: 75px;
-			margin-top: 17px;
+			width: 85px;
+			height: 85px;
+			margin-top: -5px;
 			margin-left: 247px;
+			background: url("../svg/6.svg") no-repeat;
+			background-size: cover;
 
 			svg{
 				width: 91px;
@@ -865,20 +995,20 @@ h1, h2{
 
 		@include mobile{
 			float: right;
-			margin-bottom: 85px;
+			margin-bottom: 59px;
 		}
 
 		.step{
 			color: #0F5EBA;
 			display: block;
-			font: 500 15px/15px 'Proba';
+			font: 500 15px/15px 'Proxima';
 			margin-bottom: 32px;
 		}
 
 		.text{
 			width: 420px;
 			color: #788AA1;
-			font: normal 20px/40px 'Proba';
+			font: normal 20px/40px 'Proxima';
 
 			@include mobile{
 				width: 220px;
@@ -891,7 +1021,7 @@ h1, h2{
 
 			@include mobile{
 				float: none;
-				margin-bottom: 50px;
+				margin-bottom: 0;
 			}
 		}
 
@@ -919,7 +1049,7 @@ h1, h2{
 
 			@include mobile{
 				float: none;
-				margin-bottom: 50px;
+				margin-bottom: 0;
 			}
 		}
 
@@ -941,21 +1071,4 @@ h1, h2{
 			}
 		}
 	}
-}
-
-//==================== section x
-.section-x {
-	background: url('../images/') no-repeat 50% 50% transparent;
-	padding: 0px 0 0px;
-
-	h2 {
-		margin-bottom: 0px;
-	}
-
-
-}
-
-//==================== section map
-.map-holder {
-  	height: 0px;
 }

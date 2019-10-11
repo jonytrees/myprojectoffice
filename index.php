@@ -33,8 +33,8 @@ $image = SI_CurrentPageImage();
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <!-- Favicon -->
-    <link rel="icon" href="favicon.png" type="image/png">
-    <link rel="shortcut icon" href="favicon.png" type="image/png">
+    <link rel="icon" href="images/logo.png" type="image/png">
+    <link rel="shortcut icon" href="images/logo.png" type="image/png">
 
 
     <!-- CSS styles -->
@@ -73,21 +73,30 @@ $image = SI_CurrentPageImage();
 
                     <div class="nav">
                         <ul class="wrapper">
-                            <li><a href="#">
+                            <li><a class="si-jump" href="#task">
                                     Какие задачи мы решаем
                                 </a></li>
-                            <li><a href="#">
-                                    В каких отраслях имеем опыт
+                            <li><a class="si-jump" href="#process">
+                                    Как мы работаем
                                 </a></li>
                         </ul>
                     </div>
                 </div>
 
                 <!-- Phone block -->
-                <div class="col-5-12 col-xs-2-3">
-                    <select name="lang" class="lang">
-                        <option value="ru">ru</option>
-                        <option value="en">en</option>
+                <div class="col-5-12 col-xs-2-3 position">
+                    <div class="lang-block">
+                        <div class="close"></div>
+                        <p class="text">
+                            Choose language
+                            <span>(Выберите язык)</span>
+                        </p>
+                        <a href="index.php" class="btn btn-blue">Russian</a>
+                        <a href="english.php" class="btn btn-blue">English</a>
+                    </div>
+                    <select name="lang" class="lang" onchange="window.location.href=this.options[this.selectedIndex].value">
+                        <option value="http://localhost/myprojectoffice/index.php">russian</option>
+                        <option value="http://localhost/myprojectoffice/english.php">english</option>
                     </select>
                     <div class="si-phone align-right">
                         <a href="tel:+78001233232" class="phone-link"><span>8 800</span> 123 - 32 - 32</a>
@@ -113,13 +122,14 @@ $image = SI_CurrentPageImage();
             <h1 class="cre-animate"
                 data-animation="slide-in-from-left" data-speed="1500" data-delay="600"
                 data-offset="90%" data-easing="easeOutQuint">
-                Помогаем достигать результатов
+                Помогаем  достигать  результатов
             </h1>
 
             <div class="sub-title cre-animate"
                  data-animation="slide-in-from-right" data-speed="1500" data-delay="900"
                  data-offset="90%" data-easing="easeOutQuint">
-                Ответственно. Конфиденциально. С измеримым результатом.
+                Ответственно. Конфиденциально.<br>
+                 С измеримым результатом.
             </div>
 
             <div class="last-wrapper cre-animate"
@@ -149,7 +159,7 @@ $image = SI_CurrentPageImage();
 
         <div class="big-container">
             <div class="department-wrapper">
-                <a href="#" class="more-block cre-animate"
+                <a href="#" class="more-block open-phone-modal cre-animate"
                    data-animation="slide-in-from-right" data-speed="1500" data-delay="300"
                    data-offset="90%" data-easing="easeOutQuint">
                 <span class="more-text">
@@ -158,7 +168,7 @@ $image = SI_CurrentPageImage();
                 </a>
 
                 <div class="title">
-                    Что такое проектное управление?
+                    Что такое проектное  управление?
                 </div>
                 <div class="text">
 
@@ -175,7 +185,7 @@ $image = SI_CurrentPageImage();
                  data-animation="slide-in-from-left" data-speed="1500" data-delay="300"
                  data-offset="90%" data-easing="easeOutQuint">
                 <h1>
-                    Практики, а не консультанты
+                    Практики, а не  консультанты
                 </h1>
 
                 <div class="sub_h1">
@@ -627,15 +637,85 @@ $image = SI_CurrentPageImage();
                 Процесс работы <br> над проектами
             </h2>
 
-            <img src="images/process-img.png" alt=" " class="img-process hidden-xs">
+<!--            <img src="images/process-img.png" alt=" " class="img-process hidden-xs">-->
             <img src="images/process-mobile-img.png" alt=" " class="img-process visible-xs">
+
+            <div class="img-process hidden-xs">
+                <div class="wrapper">
+                    <div class="circle-grey"></div>
+                    <div class="circle-blue" id="circle-big-1">
+                        <div class="circle-white" id="circle-small-1"></div>
+                    </div>
+                </div>
+                <div class="between-block">
+                    <div class="cube-grey"></div>
+                    <div class="cube-circle i-1 cube-circle-1"></div>
+                    <div class="cube-circle i-2 cube-circle-2"></div>
+                    <div class="cube-circle i-3 cube-circle-3"></div>
+                </div>
+                <div class="wrapper i-1">
+                    <div class="circle-grey"></div>
+                    <div class="circle-blue" id="circle-big-2">
+                        <div class="circle-white" id="circle-small-2"></div>
+                    </div>
+                </div>
+                <div class="between-block">
+                    <div class="cube-grey"></div>
+                    <div class="cube-circle i-1 cube-circle-4"></div>
+                    <div class="cube-circle i-2 cube-circle-5"></div>
+                    <div class="cube-circle i-3 cube-circle-6"></div>
+                </div>
+                <div class="wrapper i-2">
+                    <div class="circle-grey"></div>
+                    <div class="circle-blue" id="circle-big-3">
+                        <div class="circle-white" id="circle-small-3"></div>
+                    </div>
+                </div>
+                <div class="between-block">
+                    <div class="cube-grey"></div>
+                    <div class="cube-circle i-1 cube-circle-7"></div>
+                    <div class="cube-circle i-2 cube-circle-8"></div>
+                    <div class="cube-circle i-3 cube-circle-9"></div>
+                </div>
+                <div class="wrapper i-3">
+                    <div class="circle-grey"></div>
+                    <div class="circle-blue" id="circle-big-4">
+                        <div class="circle-white" id="circle-small-4"></div>
+                    </div>
+                </div>
+                <div class="between-block">
+                    <div class="cube-grey"></div>
+                    <div class="cube-circle i-1 cube-circle-10"></div>
+                    <div class="cube-circle i-2 cube-circle-11"></div>
+                    <div class="cube-circle i-3 cube-circle-12"></div>
+                </div>
+                <div class="wrapper i-4">
+                    <div class="circle-grey"></div>
+                    <div class="circle-blue" id="circle-big-5">
+                        <div class="circle-white" id="circle-small-5"></div>
+                    </div>
+                </div>
+                <div class="between-block">
+                    <div class="cube-grey"></div>
+                    <div class="cube-circle i-1 cube-circle-13"></div>
+                    <div class="cube-circle i-2 cube-circle-14"></div>
+                    <div class="cube-circle i-3 cube-circle-15"></div>
+                </div>
+                <div class="wrapper i-5">
+                    <div class="circle-grey"></div>
+                    <div class="circle-blue" id="circle-big-6">
+                        <div class="circle-white" id="circle-small-6"></div>
+                    </div>
+                </div>
+
+            </div>
 
             <div class="row">
                 <div class="col-1-2 cre-animate"
                      data-animation="slide-in-from-left" data-speed="1500" data-delay="300"
                      data-offset="90%" data-easing="easeOutQuint">
                     <div class="process-icon">
-                        <?php include('svg/graphic.svg'); ?>
+                        <?php include('svg/1.svg'); ?>
                     </div>
                 </div>
                 <div class="col-1-2 cre-animate"
@@ -668,7 +748,7 @@ $image = SI_CurrentPageImage();
                      data-animation="slide-in-from-right" data-speed="1500" data-delay="600"
                      data-offset="90%" data-easing="easeOutQuint">
                     <div class="process-icon right vector">
-                        <?php include('svg/vector.svg'); ?>
+<!--                        --><?php //include('svg/2.svg'); ?>
                     </div>
                 </div>
             </div>
@@ -677,7 +757,7 @@ $image = SI_CurrentPageImage();
                      data-animation="slide-in-from-left" data-speed="1500" data-delay="900"
                      data-offset="90%" data-easing="easeOutQuint">
                     <div class="process-icon dollar">
-                        <?php include('svg/dollar.svg'); ?>
+<!--                        --><?php //include('svg/3.svg'); ?>
                     </div>
                 </div>
                 <div class="col-1-2 cre-animate"
@@ -710,7 +790,7 @@ $image = SI_CurrentPageImage();
                      data-animation="slide-in-from-right" data-speed="1500" data-delay="1200"
                      data-offset="90%" data-easing="easeOutQuint">
                     <div class="process-icon page">
-                        <?php include('svg/page.svg'); ?>
+                        <?php include('svg/4.svg'); ?>
                     </div>
                 </div>
             </div>
@@ -719,7 +799,7 @@ $image = SI_CurrentPageImage();
                      data-animation="slide-in-from-left" data-speed="1500" data-delay="1500"
                      data-offset="90%" data-easing="easeOutQuint">
                     <div class="process-icon display">
-                        <?php include('svg/display.svg'); ?>
+<!--                        --><?php //include('svg/5.svg'); ?>
                     </div>
                 </div>
                 <div class="col-1-2 cre-animate"
@@ -752,7 +832,7 @@ $image = SI_CurrentPageImage();
                      data-animation="slide-in-from-right" data-speed="1500" data-delay="1800"
                      data-offset="90%" data-easing="easeOutQuint">
                     <div class="process-icon show">
-                        <?php include('svg/show.svg'); ?>
+<!--                        --><?php //include('svg/6.svg'); ?>
                     </div>
                 </div>
             </div>

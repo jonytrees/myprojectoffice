@@ -87,7 +87,7 @@ jQuery(function ($) {
         $.ionSound({
             sounds: ["bip-1", "bip-2", "wuf-1", "wuf-2", "wuf-3", "wuf-4"],
             path: template_url + "/sounds/",
-            volume: 0.3
+            volume: 0
         });
 
         // ===================================================== Sounds
@@ -231,30 +231,6 @@ jQuery(function ($) {
     // ===================================================== spoiler
     $(".spoiler").spoiler();
 
-    // ===================================================== swiper
-    if($('html').find('.block-slider-holder')){
-        var blockSlider = new Swiper('.block-slider', {
-            slidesPerView: 1,
-            spaceBetween: 20,
-			pagination: {
-				el: '.swiper-pagination',
-				clickable: true,
-			  },
-            navigation: {
-				nextEl: '.swiper-button-next',
-				prevEl: '.swiper-button-prev',
-			  },
-            loop: true,
-            autoplay: {
-				delay: 5000,
-			  },
-			on: {
-				slideChange: function() {
-					$.ionSound.play('wuf-1');
-				}
-			}
-        });
-	}
 
     // =====================================================dotdotdot
     $('.ellipsis').dotdotdot();
@@ -333,5 +309,242 @@ jQuery(function ($) {
 
     setEqualHeight($('.block'));
 
+
+    //============================ animate
+    var target = $('.section-process');
+    var targetPos = target.offset().top+800;
+    var winHeight = $(window).height();
+    var scrollToElem = targetPos - winHeight;
+    $(window).scroll(function(){
+        var winScrollTop = $(this).scrollTop();
+        if(winScrollTop > scrollToElem){
+            $('#circle-big-1').show(500, function(){
+                setTimeout(function(){
+                }, 5000);
+            });
+
+            setTimeout(function(){
+                    $('#circle-big-1').fadeIn(1500);
+                },
+                800);
+
+            setTimeout(function(){
+                    $('#circle-small-1').fadeIn(1500);
+                },
+                2000);
+
+
+            setTimeout(function(){
+                    $('.cube-circle-1').fadeIn(2000);
+                },
+                900);
+            setTimeout(function(){
+                    $('.cube-circle-2').fadeIn(2500);
+                },
+                1000);
+
+            setTimeout(function(){
+                    $('.cube-circle-3').fadeIn(3000);
+                },
+                1100);
+        }
+    });
+
+    var targetPos1 = target.offset().top+1200;
+    var scrollToElem1 = targetPos1 - winHeight;
+    $(window).scroll(function(){
+        var winScrollTop = $(this).scrollTop();
+        if(winScrollTop > scrollToElem1){
+            $('#circle-big-2').show(500, function(){
+                setTimeout(function(){
+                }, 5000);
+            });
+
+            setTimeout(function(){
+                    $('#circle-big-2').fadeIn(1500);
+                },
+                800);
+
+
+            setTimeout(function(){
+                    $('#circle-small-1').fadeIn(1500);
+                },
+                2000);
+
+            setTimeout(function(){
+                    $('.cube-circle-4').fadeIn(2000);
+                },
+                900);
+            setTimeout(function(){
+                    $('.cube-circle-5').fadeIn(2500);
+                },
+                1000);
+
+            setTimeout(function(){
+                    $('.cube-circle-6').fadeIn(3000);
+                },
+                1100);
+        }
+    });
+
+    var targetPos3 = target.offset().top+1600;
+    var scrollToElem3 = targetPos3 - winHeight;
+    $(window).scroll(function(){
+        var winScrollTop = $(this).scrollTop();
+        if(winScrollTop > scrollToElem3){
+            $('#circle-big-3').show(500, function(){
+                setTimeout(function(){
+                }, 5000);
+            });
+
+            setTimeout(function(){
+                    $('#circle-big-3').fadeIn(1500);
+                },
+                800);
+
+
+            setTimeout(function(){
+                    $('#circle-small-3').fadeIn(1500);
+                },
+                2000);
+
+            setTimeout(function(){
+                    $('.cube-circle-7').fadeIn(2000);
+                },
+                900);
+            setTimeout(function(){
+                    $('.cube-circle-8').fadeIn(2500);
+                },
+                1000);
+
+            setTimeout(function(){
+                    $('.cube-circle-9').fadeIn(3000);
+                },
+                1100);
+        }
+    });
+
+    var targetPos4 = target.offset().top+2000;
+    var scrollToElem4 = targetPos4 - winHeight;
+    $(window).scroll(function(){
+        var winScrollTop = $(this).scrollTop();
+        if(winScrollTop > scrollToElem4){
+            $('#circle-big-4').show(500, function(){
+                setTimeout(function(){
+                }, 5000);
+            });
+
+            setTimeout(function(){
+                    $('#circle-big-4').fadeIn(1500);
+                },
+                800);
+
+
+            setTimeout(function(){
+                    $('#circle-small-4').fadeIn(1500);
+                },
+                2000);
+
+            setTimeout(function(){
+                    $('.cube-circle-10').fadeIn(2000);
+                },
+                900);
+            setTimeout(function(){
+                    $('.cube-circle-11').fadeIn(2500);
+                },
+                1000);
+
+            setTimeout(function(){
+                    $('.cube-circle-12').fadeIn(3000);
+                },
+                1100);
+        }
+    });
+
+    var targetPos5 = target.offset().top+2400;
+    var scrollToElem5 = targetPos5 - winHeight;
+    $(window).scroll(function(){
+        var winScrollTop = $(this).scrollTop();
+        if(winScrollTop > scrollToElem5){
+            $('#circle-big-5').show(500, function(){
+                setTimeout(function(){
+                }, 5000);
+            });
+
+            setTimeout(function(){
+                    $('#circle-big-5').fadeIn(1500);
+                },
+                800);
+
+
+            setTimeout(function(){
+                    $('#circle-small-5').fadeIn(1500);
+                },
+                2000);
+
+            setTimeout(function(){
+                    $('.cube-circle-13').fadeIn(2000);
+                },
+                900);
+            setTimeout(function(){
+                    $('.cube-circle-14').fadeIn(2500);
+                },
+                1000);
+
+            setTimeout(function(){
+                    $('.cube-circle-15').fadeIn(3000);
+                },
+                1100);
+        }
+    });
+
+    var targetPos6 = target.offset().top+2700;
+    var scrollToElem6 = targetPos6 - winHeight;
+    $(window).scroll(function(){
+        var winScrollTop = $(this).scrollTop();
+        if(winScrollTop > scrollToElem6){
+            $('#circle-big-6').show(500, function(){
+                setTimeout(function(){
+                }, 5000);
+            });
+
+            setTimeout(function(){
+                    $('#circle-big-6').fadeIn(1500);
+                },
+                800);
+
+
+            setTimeout(function(){
+                    $('#circle-small-6').fadeIn(1500);
+                },
+                2000);
+
+            setTimeout(function(){
+                    $('.circle-grey').show(500, function(){
+                        $('.circle-grey').addClass('opacity');
+                    });
+                },
+                1700);
+
+            setTimeout(function(){
+                    $('.cube-grey').show(500, function(){
+                        $('.cube-grey').addClass('opacity');
+                    });
+                },
+                1700);
+        }
+    });
+
+
+    //============================== блок с выбором языка
+    $(document).ready(function(){
+        setTimeout(function(){
+            $('.lang-block').addClass('visible');
+        }, 1000);
+
+        $('.lang-block .close').click(function(){
+            $('.lang-block').removeClass('visible');
+        });
+    });
 
 });

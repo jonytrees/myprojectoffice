@@ -14,7 +14,7 @@
 	h2{
 		color: #fff;
 		text-align: center;
-		font: normal 90px/96px 'Proba';
+		font: normal 90px/96px 'Proxima';
 		display: block;
 		margin-bottom: 20px;
 	}
@@ -24,7 +24,7 @@
 		margin: 0 auto 50px;
 		color: #fff;
 		text-align: center;
-		font: normal 40px/50px 'Proba';
+		font: normal 40px/50px 'Proxima';
 		display: block;
 
 		@include mobile{
@@ -36,7 +36,7 @@
 
 //========= form agree check
 .form-agree-check {
-	font: 12px/15px "PT Sans";
+	font: 12px/15px "Proxima";
 	margin-top: 30px;
 
 	.jq-checkbox {
@@ -53,7 +53,7 @@
 		background-color: #fff !important;
 		padding-left: 47px;
 		color: #34404D !important;
-		font: normal 20px/90px 'Proba';
+		font: normal 20px/90px 'Proxima';
 
 		@include mobile{
 			width: 67%;
@@ -68,7 +68,7 @@
 		margin: 30px auto 30px;
 		text-align: center;
 		color: #fff !important;
-		font: normal 20px/90px 'Proba';
+		font: normal 20px/90px 'Proxima';
 		background: #2E9AD7 !important;
 
 		@include mobile{
@@ -94,7 +94,7 @@
 
 	.form-agree-check{
 		text-align: center;
-		font: normal 20px/40px 'Proba';
+		font: normal 20px/40px 'Proxima';
 		font-style: italic;
 		color: #fff;
 
